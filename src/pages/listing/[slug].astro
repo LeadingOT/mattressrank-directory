@@ -29,7 +29,7 @@ const schema = {
   ...(listing.rating && {
     aggregateRating: {
       '@type': 'AggregateRating',
-      ratingValue: listing.rating,
+      ratingValue: typeof listing.rating === 'number' ? listing.rating : listing.rating.overall,
       bestRating: 5,
     },
   }),
@@ -72,7 +72,7 @@ const faqs = [
       <h1 class="text-3xl font-bold mb-2">{listing.name}</h1>
       <p class="text-lg text-gray-600">{listing.tagline}</p>
       {listing.rating && (
-        <div class="mt-2 text-yellow-600 text-lg">★ {listing.rating.toFixed(1)} / 5.0</div>
+        <div class="mt-2 text-yellow-600 text-lg">★ {(typeof listing.rating === 'number' ? listing.rating : listing.rating.overall).toFixed(1)} / 5.0</div>
       )}
     </div>
 

@@ -4,22 +4,25 @@ interface Props {
   slug: string;
   tagline: string;
   category: string;
-  pricing: { model: string; startingPrice?: string };
-  rating?: number;
-  tags: string[];
+  pricing: { model?: string; price?: string; startingPrice?: string };
+  rating?: number | { overall: number };
+  tags?: string[];
 }
 
-const { name, slug, tagline, category, pricing, rating, tags } = Astro.props;
+const { name, slug, tagline, category, pricing, rating, tags = [] } = Astro.props;
+
+// Handle rating (can be number or object with overall)
+const ratingValue = typeof rating === 'number' ? rating : rating?.overall;
 
 const pricingBadge: Record<string, { text: string; class: string }> = {
   free: { text: 'Free', class: 'bg-green-100 text-green-800' },
   freemium: { text: 'Freemium', class: 'bg-blue-100 text-blue-800' },
-  paid: { text: pricing.startingPrice || 'Paid', class: 'bg-orange-100 text-orange-800' },
+  paid: { text: pricing.startingPrice || pricing.price || 'Paid', class: 'bg-orange-100 text-orange-800' },
   enterprise: { text: 'Enterprise', class: 'bg-purple-100 text-purple-800' },
   'open-source': { text: 'Open Source', class: 'bg-gray-100 text-gray-800' },
 };
 
-const badge = pricingBadge[pricing.model] || pricingBadge.paid;
+const badge = pricing.model ? (pricingBadge[pricing.model] || pricingBadge.paid) : pricingBadge.paid;
 ---
 
 <a href={`/listing/${slug}`} class="block border border-gray-200 rounded-lg p-5 hover:shadow-md hover:border-blue-300 transition-all">
@@ -30,8 +33,8 @@ const badge = pricingBadge[pricing.model] || pricingBadge.paid;
   <p class="text-sm text-gray-600 mb-3">{tagline}</p>
   <div class="flex items-center gap-2 flex-wrap">
     <span class="text-xs bg-gray-100 text-gray-600 px-2 py-0.5 rounded">{category}</span>
-    {rating && (
-      <span class="text-xs text-yellow-600">★ {rating.toFixed(1)}</span>
+    {ratingValue && (
+      <span class="text-xs text-yellow-600">★ {ratingValue.toFixed(1)}</span>
     )}
   </div>
 </a>
