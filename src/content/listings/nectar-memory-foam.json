@@ -1,0 +1,57 @@
+{
+  "name": "Nectar Memory Foam",
+  "slug": "nectar-memory-foam",
+  "brand": "Nectar",
+  "model": "Memory Foam",
+  "tagline": "Best value memory foam mattress with 365-night trial",
+  "description": "Nectar offers premium memory foam comfort at an affordable price point. Excellent pressure relief and motion isolation.",
+  "category": "Memory Foam",
+  "subcategory": "Budget",
+  "url": "https://www.nectarsleep.com",
+  "affiliateUrl": "https://www.amazon.com/nectar-mattress",
+  "image": "/images/nectar.jpg",
+  "pricing": {
+    "price": "$699",
+    "salePrice": "$499",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "Gel memory foam",
+    "firmness": "Medium-firm (6.5/10)",
+    "height": "12 inches",
+    "warranty": "Lifetime",
+    "trial": "365 nights"
+  },
+  "features": [
+    "Quilted gel memory foam",
+    "Adaptive hi-core memory foam",
+    "Breathable base layer",
+    "Tencel cooling cover"
+  ],
+  "pros": [
+    "Excellent value",
+    "365-night trial",
+    "Forever warranty",
+    "Good motion isolation"
+  ],
+  "cons": [
+    "Some heat retention",
+    "Off-gassing smell initially",
+    "Weak edge support"
+  ],
+  "bestFor": [
+    "Budget shoppers",
+    "Side sleepers",
+    "Couples",
+    "First-time mattress buyers"
+  ],
+  "rating": {
+    "overall": 4.3,
+    "comfort": 4.4,
+    "support": 4.2,
+    "cooling": 3.9,
+    "value": 4.8
+  },
+  "lastUpdated": "2026-02-24",
+  "tags": ["memory foam", "budget", "value", "side sleeper", "long trial"]
+}

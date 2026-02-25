@@ -1,0 +1,56 @@
+{
+  "name": "Birch Natural Mattress",
+  "slug": "birch-natural",
+  "brand": "Birch",
+  "model": "Natural Mattress",
+  "tagline": "Affordable organic latex mattress",
+  "description": "Birch offers organic materials and natural latex at a more accessible price point than competitors. Great eco-friendly option.",
+  "category": "Latex",
+  "url": "https://www.birchliving.com",
+  "affiliateUrl": "https://www.birchliving.com/products/natural-mattress",
+  "image": "/images/birch-natural.jpg",
+  "pricing": {
+    "price": "$1049",
+    "salePrice": "$799",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "Natural Talalay latex + coils",
+    "firmness": "Medium-firm (6.5/10)",
+    "height": "11 inches",
+    "warranty": "25 years",
+    "trial": "100 nights"
+  },
+  "features": [
+    "Talalay latex",
+    "Organic cotton cover",
+    "Organic New Zealand wool",
+    "Individually wrapped coils"
+  ],
+  "pros": [
+    "Organic materials",
+    "Great value for latex",
+    "Responsive feel",
+    "Good cooling"
+  ],
+  "cons": [
+    "Firmer than advertised",
+    "May be too bouncy for some",
+    "Limited firmness options"
+  ],
+  "bestFor": [
+    "Eco-conscious on budget",
+    "Back sleepers",
+    "Combination sleepers",
+    "Those wanting latex without premium price"
+  ],
+  "rating": {
+    "overall": 4.4,
+    "comfort": 4.3,
+    "support": 4.5,
+    "cooling": 4.6,
+    "value": 4.7
+  },
+  "lastUpdated": "2026-02-24",
+  "tags": ["latex", "organic", "value", "eco-friendly", "medium-firm"]
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Bear Original",
+  "slug": "bear-original",
+  "brand": "Bear",
+  "model": "Original",
+  "tagline": "Recovery-focused mattress for active individuals",
+  "description": "Designed for athletes and active people, the Bear Original features Celliant technology to help promote muscle recovery and better sleep.",
+  "category": "Memory Foam",
+  "url": "https://www.bearmattress.com",
+  "affiliateUrl": "https://www.bearmattress.com/products/bear-mattress",
+  "image": "/images/bear-original.jpg",
+  "pricing": {
+    "price": "$725",
+    "salePrice": "$508",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "Memory foam",
+    "firmness": "Medium-firm (7/10)",
+    "height": "10 inches",
+    "warranty": "Lifetime",
+    "trial": "120 nights"
+  },
+  "features": [
+    "Celliant cover",
+    "Graphite gel memory foam",
+    "Responsive transition foam",
+    "High-density base foam"
+  ],
+  "pros": [
+    "Great for athletes",
+    "Cooling Celliant cover",
+    "Good support",
+    "Lifetime warranty"
+  ],
+  "cons": [
+    "Firmer than average",
+    "Limited edge support",
+    "Some initial smell"
+  ],
+  "bestFor": [
+    "Athletes",
+    "Active individuals",
+    "Back sleepers",
+    "Those seeking recovery benefits"
+  ],
+  "rating": {
+    "overall": 4.3,
+    "comfort": 4.2,
+    "support": 4.5,
+    "cooling": 4.4,
+    "value": 4.5
+  },
+  "lastUpdated": "2026-02-24",
+  "tags": ["memory foam", "cooling", "athletes", "recovery", "value"]
+}

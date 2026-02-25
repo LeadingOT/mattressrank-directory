@@ -1,0 +1,57 @@
+{
+  "name": "Tempur-Pedic TEMPUR-Cloud",
+  "slug": "tempur-cloud",
+  "brand": "Tempur-Pedic",
+  "model": "TEMPUR-Cloud",
+  "tagline": "Soft, conforming comfort with legendary pressure relief",
+  "description": "The TEMPUR-Cloud offers a softer feel while maintaining the adaptive support that Tempur-Pedic is known for. Perfect for side sleepers who need pressure relief.",
+  "category": "Memory Foam",
+  "url": "https://www.tempurpedic.com",
+  "affiliateUrl": "https://www.amazon.com/tempur-cloud",
+  "image": "/images/tempur-cloud.jpg",
+  "pricing": {
+    "price": "$2199",
+    "salePrice": "$1759",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "TEMPUR Material (memory foam)",
+    "firmness": "Soft (3/10)",
+    "height": "10 inches",
+    "warranty": "10 years",
+    "trial": "90 nights"
+  },
+  "features": [
+    "TEMPUR-ES Comfort Layer",
+    "Original TEMPUR Support Layer",
+    "Premium Knit Cover",
+    "Cooling Technology",
+    "Motion Isolation"
+  ],
+  "pros": [
+    "Exceptional pressure relief",
+    "Superior motion isolation",
+    "Durable construction",
+    "Minimal off-gassing"
+  ],
+  "cons": [
+    "Expensive",
+    "Retains some heat",
+    "Heavy and hard to move"
+  ],
+  "bestFor": [
+    "Side sleepers",
+    "Couples",
+    "Pressure point relief",
+    "Motion isolation"
+  ],
+  "rating": {
+    "overall": 4.6,
+    "comfort": 4.8,
+    "support": 4.5,
+    "cooling": 3.8,
+    "value": 4.0
+  },
+  "lastUpdated": "2026-02-24",
+  "tags": ["memory foam", "premium", "soft", "side sleeper", "motion isolation"]
+}

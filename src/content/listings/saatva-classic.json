@@ -1,0 +1,57 @@
+{
+  "name": "Saatva Classic",
+  "slug": "saatva-classic",
+  "brand": "Saatva",
+  "model": "Classic",
+  "tagline": "Luxury hybrid innerspring with Euro pillow top",
+  "description": "A premium hybrid mattress combining the bounce of coils with plush comfort layers. Available in three firmness levels.",
+  "category": "Hybrid",
+  "url": "https://www.saatva.com",
+  "affiliateUrl": "https://www.saatva.com/mattresses/saatva-classic",
+  "image": "/images/saatva-classic.jpg",
+  "pricing": {
+    "price": "$1395",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "Hybrid (coils + foam + pillow top)",
+    "firmness": "Plush Soft, Luxury Firm, Firm (3/10, 6/10, 8/10)",
+    "height": "11.5 or 14.5 inches",
+    "warranty": "Lifetime",
+    "trial": "365 nights"
+  },
+  "features": [
+    "Dual coil system",
+    "Euro pillow top",
+    "Organic cotton cover",
+    "Lumbar Zone support",
+    "Free white glove delivery"
+  ],
+  "pros": [
+    "Excellent support",
+    "Three firmness options",
+    "Lifetime warranty",
+    "365-night trial",
+    "Eco-friendly materials"
+  ],
+  "cons": [
+    "Heavy (no easy returns)",
+    "Takes time to ship",
+    "Pricey"
+  ],
+  "bestFor": [
+    "All sleep positions",
+    "Heavy individuals",
+    "Couples",
+    "Those wanting luxury feel"
+  ],
+  "rating": {
+    "overall": 4.7,
+    "comfort": 4.8,
+    "support": 4.9,
+    "cooling": 4.5,
+    "value": 4.5
+  },
+  "lastUpdated": "2026-02-24",
+  "tags": ["hybrid", "luxury", "innerspring", "pillow top", "lifetime warranty"]
+}

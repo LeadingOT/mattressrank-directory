@@ -1,0 +1,58 @@
+{
+  "name": "PlushBeds Botanical Bliss",
+  "slug": "plushbeds-botanical",
+  "brand": "PlushBeds",
+  "model": "Botanical Bliss",
+  "tagline": "Customizable organic latex mattress",
+  "description": "100% natural latex with customizable firmness layers. Choose from 3 heights and multiple firmness configurations.",
+  "category": "Latex",
+  "subcategory": "Luxury",
+  "url": "https://www.plushbeds.com",
+  "affiliateUrl": "https://www.plushbeds.com/products/botanical-bliss",
+  "image": "/images/plushbeds-botanical.jpg",
+  "pricing": {
+    "price": "$2199",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "100% natural Dunlop latex",
+    "firmness": "Customizable (3-9/10)",
+    "height": "9, 10, or 12 inches",
+    "warranty": "25 years",
+    "trial": "100 nights"
+  },
+  "features": [
+    "GOLS certified latex",
+    "Organic cotton cover",
+    "Organic wool",
+    "Customizable layers",
+    "Multiple heights"
+  ],
+  "pros": [
+    "Fully customizable",
+    "Premium materials",
+    "Excellent durability",
+    "Can adjust firmness at home"
+  ],
+  "cons": [
+    "Very expensive",
+    "Heavy",
+    "Complicated configuration",
+    "Long break-in period"
+  ],
+  "bestFor": [
+    "Those wanting perfect firmness",
+    "Eco-luxury buyers",
+    "Couples with different preferences",
+    "Long-term investment seekers"
+  ],
+  "rating": {
+    "overall": 4.6,
+    "comfort": 4.7,
+    "support": 4.7,
+    "cooling": 4.5,
+    "value": 4.0
+  },
+  "lastUpdated": "2026-02-24",
+  "tags": ["latex", "organic", "luxury", "customizable", "premium"]
+}

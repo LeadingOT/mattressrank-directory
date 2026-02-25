@@ -1,0 +1,57 @@
+{
+  "name": "Purple Mattress",
+  "slug": "purple-mattress",
+  "brand": "Purple",
+  "model": "Original Purple",
+  "tagline": "Unique GelFlex Grid for zero-pressure comfort",
+  "description": "Purple's proprietary Gel Flex Grid adapts to your body shape while staying cool and supportive. A truly unique sleep experience.",
+  "category": "Hybrid",
+  "url": "https://www.purple.com",
+  "affiliateUrl": "https://www.amazon.com/purple-mattress",
+  "image": "/images/purple-mattress.jpg",
+  "pricing": {
+    "price": "$1299",
+    "salePrice": "$999",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "GelFlex Grid + foam layers",
+    "firmness": "Medium-firm (6/10)",
+    "height": "9.5 inches",
+    "warranty": "10 years",
+    "trial": "100 nights"
+  },
+  "features": [
+    "Patented GelFlex Grid",
+    "Zero-pressure comfort",
+    "Excellent cooling",
+    "Responsive support",
+    "Motion isolation"
+  ],
+  "pros": [
+    "Exceptional cooling performance",
+    "Unique pressure relief",
+    "Very responsive",
+    "Durable materials"
+  ],
+  "cons": [
+    "Expensive",
+    "Takes time to adjust",
+    "Limited firmness options"
+  ],
+  "bestFor": [
+    "Hot sleepers",
+    "Back sleepers",
+    "Combination sleepers",
+    "Those seeking unique feel"
+  ],
+  "rating": {
+    "overall": 4.5,
+    "comfort": 4.4,
+    "support": 4.6,
+    "cooling": 4.9,
+    "value": 4.2
+  },
+  "lastUpdated": "2026-02-24",
+  "tags": ["hybrid", "cooling", "gel grid", "back sleeper", "innovative"]
+}

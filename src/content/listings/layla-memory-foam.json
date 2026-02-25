@@ -1,0 +1,56 @@
+{
+  "name": "Layla Memory Foam",
+  "slug": "layla-memory-foam",
+  "brand": "Layla",
+  "model": "Memory Foam",
+  "tagline": "Flippable mattress with two firmness levels",
+  "description": "Layla's unique flippable design offers soft on one side and firm on the other, plus copper-infused foam for cooling and antimicrobial benefits.",
+  "category": "Memory Foam",
+  "url": "https://www.laylasleep.com",
+  "affiliateUrl": "https://www.laylasleep.com/mattress",
+  "image": "/images/layla-memory-foam.jpg",
+  "pricing": {
+    "price": "$1099",
+    "salePrice": "$849",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "Copper-infused memory foam",
+    "firmness": "Soft (4/10) or Firm (7/10)",
+    "height": "10 inches",
+    "warranty": "Lifetime",
+    "trial": "120 nights"
+  },
+  "features": [
+    "Flippable design",
+    "Copper-infused foam",
+    "ThermoGel cooling",
+    "Lifetime warranty"
+  ],
+  "pros": [
+    "Two firmness levels in one",
+    "Good cooling",
+    "Lifetime warranty",
+    "Antimicrobial copper"
+  ],
+  "cons": [
+    "Soft side may be too soft for some",
+    "Edge support limited",
+    "Heavy to flip regularly"
+  ],
+  "bestFor": [
+    "Indecisive buyers",
+    "Side sleepers",
+    "Hot sleepers",
+    "Those wanting versatility"
+  ],
+  "rating": {
+    "overall": 4.4,
+    "comfort": 4.5,
+    "support": 4.3,
+    "cooling": 4.5,
+    "value": 4.6
+  },
+  "lastUpdated": "2026-02-24",
+  "tags": ["memory foam", "flippable", "cooling", "copper", "versatile"]
+}

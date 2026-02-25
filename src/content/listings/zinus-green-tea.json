@@ -1,0 +1,57 @@
+{
+  "name": "Zinus Green Tea Memory Foam",
+  "slug": "zinus-green-tea",
+  "brand": "Zinus",
+  "model": "Green Tea Memory Foam",
+  "tagline": "Ultra-affordable memory foam with natural extracts",
+  "description": "Zinus offers incredible value with green tea and charcoal infusions to keep the mattress fresh. Perfect for budget-conscious buyers.",
+  "category": "Memory Foam",
+  "subcategory": "Budget",
+  "url": "https://www.zinus.com",
+  "affiliateUrl": "https://www.amazon.com/zinus-green-tea-mattress",
+  "image": "/images/zinus-green-tea.jpg",
+  "pricing": {
+    "price": "$299",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "Memory foam with green tea extract",
+    "firmness": "Medium-firm (6/10)",
+    "height": "12 inches",
+    "warranty": "10 years",
+    "trial": "100 nights (Amazon return policy)"
+  },
+  "features": [
+    "Green tea extract infusion",
+    "Charcoal infusion",
+    "CertiPUR-US certified foam",
+    "Pressure-relieving comfort"
+  ],
+  "pros": [
+    "Extremely affordable",
+    "Good value for money",
+    "Easy setup",
+    "Minimal smell"
+  ],
+  "cons": [
+    "Less durable",
+    "Basic edge support",
+    "May soften over time",
+    "Not premium materials"
+  ],
+  "bestFor": [
+    "Budget shoppers",
+    "Guest rooms",
+    "Students",
+    "Temporary use"
+  ],
+  "rating": {
+    "overall": 3.9,
+    "comfort": 4.0,
+    "support": 3.8,
+    "cooling": 3.5,
+    "value": 4.9
+  },
+  "lastUpdated": "2026-02-24",
+  "tags": ["budget", "memory foam", "value", "affordable", "green tea"]
+}

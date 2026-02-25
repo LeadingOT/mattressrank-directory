@@ -1,0 +1,60 @@
+{
+  "name": "Avocado Green Mattress",
+  "slug": "avocado-green",
+  "brand": "Avocado",
+  "model": "Green Mattress",
+  "tagline": "Organic latex hybrid for eco-conscious sleepers",
+  "description": "100% natural and organic materials including GOLS certified latex and GOTS certified cotton and wool. Eco-luxury at its finest.",
+  "category": "Latex",
+  "subcategory": "Luxury",
+  "url": "https://www.avocadogreenmattress.com",
+  "affiliateUrl": "https://www.avocadogreenmattress.com/shop/avocado-mattress",
+  "image": "/images/avocado-green.jpg",
+  "pricing": {
+    "price": "$1399",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "Natural latex + pocketed coils",
+    "firmness": "Firm (7/10), with optional pillow top",
+    "height": "11 inches (13 with pillow top)",
+    "warranty": "25 years",
+    "trial": "365 nights"
+  },
+  "features": [
+    "GOLS organic latex",
+    "GOTS certified cotton",
+    "Joma wool",
+    "Recycled steel coils",
+    "Carbon negative"
+  ],
+  "pros": [
+    "Fully organic materials",
+    "Excellent durability",
+    "25-year warranty",
+    "Eco-friendly",
+    "Very supportive"
+  ],
+  "cons": [
+    "Expensive",
+    "Heavy (180+ lbs)",
+    "Firm feel may not suit all",
+    "Initial latex smell"
+  ],
+  "bestFor": [
+    "Eco-conscious buyers",
+    "Back sleepers",
+    "Stomach sleepers",
+    "Heavier individuals",
+    "Those wanting organic materials"
+  ],
+  "rating": {
+    "overall": 4.7,
+    "comfort": 4.5,
+    "support": 4.9,
+    "cooling": 4.6,
+    "value": 4.4
+  },
+  "lastUpdated": "2026-02-24",
+  "tags": ["latex", "organic", "eco-friendly", "luxury", "firm"]
+}

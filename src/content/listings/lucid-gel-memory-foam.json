@@ -1,0 +1,57 @@
+{
+  "name": "Lucid Gel Memory Foam",
+  "slug": "lucid-gel-memory-foam",
+  "brand": "Lucid",
+  "model": "Gel Memory Foam",
+  "tagline": "Affordable gel memory foam with cooling",
+  "description": "Lucid delivers gel-infused memory foam at budget prices. Available in multiple thickness options to fit different needs.",
+  "category": "Memory Foam",
+  "subcategory": "Budget",
+  "url": "https://www.lucidmattress.com",
+  "affiliateUrl": "https://www.amazon.com/lucid-gel-memory-foam",
+  "image": "/images/lucid-gel.jpg",
+  "pricing": {
+    "price": "$279",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "Gel memory foam",
+    "firmness": "Medium (5/10)",
+    "height": "10 inches (6-14 available)",
+    "warranty": "10 years",
+    "trial": "30 days (Amazon return)"
+  },
+  "features": [
+    "Gel-infused foam",
+    "Multiple height options",
+    "Soft TENCEL blend cover",
+    "CertiPUR-US certified"
+  ],
+  "pros": [
+    "Great price",
+    "Multiple thickness options",
+    "Good cooling for the price",
+    "Easy setup"
+  ],
+  "cons": [
+    "May soften quickly",
+    "Basic construction",
+    "Limited edge support",
+    "Short trial"
+  ],
+  "bestFor": [
+    "Budget buyers",
+    "Guest bedrooms",
+    "RVs",
+    "Kids"
+  ],
+  "rating": {
+    "overall": 3.8,
+    "comfort": 3.9,
+    "support": 3.6,
+    "cooling": 4.1,
+    "value": 4.7
+  },
+  "lastUpdated": "2026-02-24",
+  "tags": ["budget", "memory foam", "gel", "affordable", "versatile"]
+}

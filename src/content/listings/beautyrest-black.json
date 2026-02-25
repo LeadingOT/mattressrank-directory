@@ -1,0 +1,56 @@
+{
+  "name": "Beautyrest Black",
+  "slug": "beautyrest-black",
+  "brand": "Beautyrest",
+  "model": "Black",
+  "tagline": "Premium luxury innerspring with advanced cooling",
+  "description": "Beautyrest's flagship luxury line featuring T3 Pocketed Coil technology and BlackICE cooling for exceptional support and temperature regulation.",
+  "category": "Innerspring",
+  "subcategory": "Luxury",
+  "url": "https://www.beautyrest.com",
+  "affiliateUrl": "https://www.beautyrest.com/black",
+  "image": "/images/beautyrest-black.jpg",
+  "pricing": {
+    "price": "$2999",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "Innerspring with memory foam layers",
+    "firmness": "Medium (5.5/10)",
+    "height": "14.5 inches",
+    "warranty": "10 years",
+    "trial": "100 nights"
+  },
+  "features": [
+    "T3 Pocketed Coil Technology",
+    "BlackICE cooling",
+    "ContourFit Design",
+    "SurfaceTouch Gel Memory Foam"
+  ],
+  "pros": [
+    "Exceptional support",
+    "Luxury materials",
+    "Great edge support",
+    "Good cooling"
+  ],
+  "cons": [
+    "Very expensive",
+    "May be too firm for side sleepers",
+    "Heavy"
+  ],
+  "bestFor": [
+    "Luxury seekers",
+    "Back sleepers",
+    "Heavier individuals",
+    "Those wanting innerspring feel"
+  ],
+  "rating": {
+    "overall": 4.5,
+    "comfort": 4.4,
+    "support": 4.8,
+    "cooling": 4.6,
+    "value": 3.8
+  },
+  "lastUpdated": "2026-02-24",
+  "tags": ["innerspring", "luxury", "cooling", "premium", "support"]
+}

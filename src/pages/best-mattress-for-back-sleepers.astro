@@ -1,0 +1,82 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ListingCard from '../components/ListingCard.astro';
+import { getCollection } from 'astro:content';
+
+const allListings = await getCollection('listings');
+
+const backSleepersMatches = allListings.filter((l) =>
+  l.data.bestFor.some((use: string) => use.toLowerCase().includes('back'))
+).sort((a, b) => b.data.rating.overall - a.data.rating.overall);
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: 'Best Mattress for Back Sleepers 2026',
+  description: 'Top-rated medium-firm mattresses for back sleepers with excellent lumbar support.',
+};
+---
+
+<BaseLayout
+  title="Best Mattress for Back Sleepers 2026 - Expert Tested"
+  description="Medium to medium-firm mattresses perfect for back sleepers. Expert-tested for spinal alignment and lumbar support."
+  schema={schema}
+>
+  <section class="bg-gradient-to-r from-green-50 to-blue-50 py-12 px-4 rounded-lg mb-12">
+    <div class="max-w-4xl mx-auto">
+      <h1 class="text-4xl font-bold mb-4">Best Mattress for Back Sleepers 2026</h1>
+      <p class="text-lg text-gray-700 mb-6">
+        Back sleeping is the healthiest position for spinal alignment. You need a medium to medium-firm mattress that supports your natural spine curve without sagging.
+      </p>
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <h2 class="font-bold text-xl mb-3">What Back Sleepers Need:</h2>
+        <ul class="space-y-2 text-gray-700">
+          <li>✅ <strong>Firmness:</strong> Medium to medium-firm (5-7 out of 10)</li>
+          <li>✅ <strong>Lumbar Support:</strong> Maintains natural spine curve</li>
+          <li>✅ <strong>Materials:</strong> Hybrid, latex, or responsive foam</li>
+          <li>✅ <strong>No Sagging:</strong> Prevents lower back pain</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="mb-12">
+    <h2 class="text-3xl font-bold mb-6">Top {backSleepersMatches.length} Mattresses for Back Sleepers</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {backSleepersMatches.map((listing, index) => (
+        <div>
+          {index === 0 && (
+            <div class="bg-green-400 text-green-900 text-xs font-bold px-3 py-1 rounded-t-lg inline-block">
+              🏆 BEST FOR BACK SLEEPERS
+            </div>
+          )}
+          <ListingCard {...listing.data} />
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="bg-gray-50 p-8 rounded-lg mb-12">
+    <h2 class="text-3xl font-bold mb-6">Back Sleeper Guide</h2>
+    <div class="prose max-w-none">
+      <h3 class="text-2xl font-bold mb-4">Why Back Sleepers Need Medium-Firm</h3>
+      <p class="text-gray-700 mb-4">
+        Back sleeping distributes weight evenly, but your lower back (lumbar region) needs proper support to maintain its natural curve. Too soft = sagging and back pain. Too firm = pressure on tailbone and shoulders.
+      </p>
+      
+      <h3 class="text-2xl font-bold mt-6 mb-4">Best Mattress Types</h3>
+      <ul class="list-disc pl-6 text-gray-700 space-y-2 mb-6">
+        <li><strong>Hybrid:</strong> Best overall - combines support and comfort (Purple, Saatva)</li>
+        <li><strong>Latex:</strong> Excellent support and durability (Avocado Green)</li>
+        <li><strong>Responsive Foam:</strong> Good balance without sinking (Tuft & Needle Mint)</li>
+      </ul>
+
+      <h3 class="text-2xl font-bold mt-6 mb-4">Firmness by Weight</h3>
+      <ul class="space-y-2 text-gray-700">
+        <li><strong>&lt;130 lbs:</strong> Medium (5/10)</li>
+        <li><strong>130-230 lbs:</strong> Medium-firm (6/10)</li>
+        <li><strong>230+ lbs:</strong> Firm (7-8/10)</li>
+      </ul>
+    </div>
+  </section>
+</BaseLayout>

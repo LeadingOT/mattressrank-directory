@@ -1,0 +1,56 @@
+{
+  "name": "Amerisleep AS3",
+  "slug": "amerisleep-as3",
+  "brand": "Amerisleep",
+  "model": "AS3",
+  "tagline": "Bio-based memory foam for balanced comfort",
+  "description": "The AS3 is Amerisleep's most popular model, balancing comfort and support with eco-friendly Bio-Pur foam that sleeps cooler than traditional memory foam.",
+  "category": "Memory Foam",
+  "url": "https://www.amerisleep.com",
+  "affiliateUrl": "https://www.amerisleep.com/as3.html",
+  "image": "/images/amerisleep-as3.jpg",
+  "pricing": {
+    "price": "$1399",
+    "salePrice": "$1049",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "Bio-Pur memory foam",
+    "firmness": "Medium (5/10)",
+    "height": "12 inches",
+    "warranty": "20 years",
+    "trial": "100 nights"
+  },
+  "features": [
+    "Plant-based Bio-Pur foam",
+    "HIVE transition layer",
+    "Bio-Core base",
+    "Celliant cover"
+  ],
+  "pros": [
+    "Eco-friendly materials",
+    "Good cooling",
+    "20-year warranty",
+    "Celliant health benefits"
+  ],
+  "cons": [
+    "Expensive",
+    "May be too soft for stomach sleepers",
+    "Limited availability"
+  ],
+  "bestFor": [
+    "Eco-conscious buyers",
+    "Side sleepers",
+    "Back sleepers",
+    "Those wanting bio-based foam"
+  ],
+  "rating": {
+    "overall": 4.4,
+    "comfort": 4.5,
+    "support": 4.4,
+    "cooling": 4.6,
+    "value": 4.2
+  },
+  "lastUpdated": "2026-02-24",
+  "tags": ["memory foam", "eco-friendly", "bio-based", "cooling", "medium"]
+}

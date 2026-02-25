@@ -1,0 +1,56 @@
+{
+  "name": "Cocoon by Sealy Chill",
+  "slug": "cocoon-chill",
+  "brand": "Cocoon by Sealy",
+  "model": "Chill",
+  "tagline": "Memory foam with phase change cooling",
+  "description": "Cocoon Chill features phase change material in the cover to actively absorb and dissipate heat. Available in soft or firm.",
+  "category": "Cooling",
+  "url": "https://www.cocoonbysealy.com",
+  "affiliateUrl": "https://www.cocoonbysealy.com/mattress",
+  "image": "/images/cocoon-chill.jpg",
+  "pricing": {
+    "price": "$879",
+    "salePrice": "$659",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "Memory foam with phase change",
+    "firmness": "Soft (4/10) or Firm (7/10)",
+    "height": "10 inches (12 with Chill upgrade)",
+    "warranty": "10 years",
+    "trial": "100 nights"
+  },
+  "features": [
+    "Phase change material",
+    "Premium memory foam",
+    "Stretch-knit cover",
+    "Two firmness options"
+  ],
+  "pros": [
+    "Effective cooling",
+    "Good value",
+    "Two firmness options",
+    "Made by Sealy"
+  ],
+  "cons": [
+    "May still sleep warm for some",
+    "Edge support limited",
+    "All-foam construction"
+  ],
+  "bestFor": [
+    "Hot sleepers on budget",
+    "Side sleepers (soft) or back sleepers (firm)",
+    "Those wanting memory foam with cooling",
+    "Couples"
+  ],
+  "rating": {
+    "overall": 4.2,
+    "comfort": 4.3,
+    "support": 4.1,
+    "cooling": 4.6,
+    "value": 4.5
+  },
+  "lastUpdated": "2026-02-24",
+  "tags": ["cooling", "memory foam", "phase change", "value", "hot sleeper"]
+}

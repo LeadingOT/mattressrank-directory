@@ -1,0 +1,59 @@
+{
+  "name": "WinkBed",
+  "slug": "winkbed",
+  "brand": "WinkBeds",
+  "model": "WinkBed",
+  "tagline": "Luxury hybrid built like a traditional innerspring",
+  "description": "WinkBed offers the traditional feel of a luxury hotel mattress with modern materials. Available in four firmness levels including a Plus option for heavier individuals.",
+  "category": "Hybrid",
+  "subcategory": "Luxury",
+  "url": "https://www.winkbeds.com",
+  "affiliateUrl": "https://www.winkbeds.com/products/winkbed",
+  "image": "/images/winkbed.jpg",
+  "pricing": {
+    "price": "$1799",
+    "salePrice": "$1349",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "Hybrid (foam + coils)",
+    "firmness": "Softer, Luxury Firm, Firmer, Plus (4/10, 6.5/10, 8/10, 8/10 reinforced)",
+    "height": "13.5 inches",
+    "warranty": "Lifetime",
+    "trial": "120 nights"
+  },
+  "features": [
+    "Euro-pillow top",
+    "Pocketed coil system",
+    "Lumbar pad",
+    "Four firmness options",
+    "Tencel cover"
+  ],
+  "pros": [
+    "Four firmness levels",
+    "Excellent edge support",
+    "Lifetime warranty",
+    "Plus option for heavier people",
+    "Great support"
+  ],
+  "cons": [
+    "Expensive",
+    "Heavy",
+    "May be too firm for some"
+  ],
+  "bestFor": [
+    "All sleep positions (with firmness options)",
+    "Heavier individuals",
+    "Couples with different needs",
+    "Those wanting luxury innerspring feel"
+  ],
+  "rating": {
+    "overall": 4.6,
+    "comfort": 4.7,
+    "support": 4.9,
+    "cooling": 4.4,
+    "value": 4.4
+  },
+  "lastUpdated": "2026-02-24",
+  "tags": ["luxury", "hybrid", "customizable", "plus size", "innerspring"]
+}

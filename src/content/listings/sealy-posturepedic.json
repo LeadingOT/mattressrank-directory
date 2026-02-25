@@ -1,0 +1,55 @@
+{
+  "name": "Sealy Posturepedic",
+  "slug": "sealy-posturepedic",
+  "brand": "Sealy",
+  "model": "Posturepedic",
+  "tagline": "Trusted support with reinforced center",
+  "description": "Sealy's iconic Posturepedic technology provides extra support where you need it most. A reliable choice for traditional innerspring comfort.",
+  "category": "Innerspring",
+  "url": "https://www.sealy.com",
+  "affiliateUrl": "https://www.sealy.com/posturepedic",
+  "image": "/images/sealy-posturepedic.jpg",
+  "pricing": {
+    "price": "$899",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "Innerspring",
+    "firmness": "Medium-firm (6.5/10)",
+    "height": "12 inches",
+    "warranty": "10 years",
+    "trial": "120 nights"
+  },
+  "features": [
+    "Posturepedic Technology",
+    "Reinforced center support",
+    "DuraFlex Edge System",
+    "MoistureProtect technology"
+  ],
+  "pros": [
+    "Affordable",
+    "Good support",
+    "Durable",
+    "Traditional innerspring feel"
+  ],
+  "cons": [
+    "Some motion transfer",
+    "May be too firm for side sleepers",
+    "Limited cooling"
+  ],
+  "bestFor": [
+    "Back sleepers",
+    "Budget-conscious buyers",
+    "Those preferring innerspring",
+    "Traditional mattress lovers"
+  ],
+  "rating": {
+    "overall": 4.1,
+    "comfort": 4.0,
+    "support": 4.4,
+    "cooling": 3.7,
+    "value": 4.5
+  },
+  "lastUpdated": "2026-02-24",
+  "tags": ["innerspring", "budget", "traditional", "support", "value"]
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Casper Original",
+  "slug": "casper-original",
+  "brand": "Casper",
+  "model": "Original",
+  "tagline": "The mattress that started the bed-in-a-box revolution",
+  "description": "Casper's flagship all-foam mattress combines zoned support with pressure relief. A balanced feel suitable for most sleep positions.",
+  "category": "Memory Foam",
+  "url": "https://www.casper.com",
+  "affiliateUrl": "https://www.amazon.com/casper-original",
+  "image": "/images/casper-original.jpg",
+  "pricing": {
+    "price": "$1095",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "Multi-layer memory foam",
+    "firmness": "Medium (5.5/10)",
+    "height": "11 inches",
+    "warranty": "10 years",
+    "trial": "100 nights"
+  },
+  "features": [
+    "AirScape perforated foam",
+    "Zoned Support for targeted relief",
+    "Durable base foam",
+    "Breathable cover"
+  ],
+  "pros": [
+    "Great for combination sleepers",
+    "Good pressure relief",
+    "Affordable premium option",
+    "Responsive feel"
+  ],
+  "cons": [
+    "May be too soft for stomach sleepers",
+    "Edge support could be better",
+    "Some heat retention"
+  ],
+  "bestFor": [
+    "Combination sleepers",
+    "Back sleepers",
+    "Average weight individuals",
+    "Budget-conscious buyers"
+  ],
+  "rating": {
+    "overall": 4.4,
+    "comfort": 4.5,
+    "support": 4.3,
+    "cooling": 4.0,
+    "value": 4.6
+  },
+  "lastUpdated": "2026-02-24",
+  "tags": ["memory foam", "medium", "bed-in-a-box", "combination sleeper", "value"]
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Serta Perfect Sleeper",
+  "slug": "serta-perfect-sleeper",
+  "brand": "Serta",
+  "model": "Perfect Sleeper",
+  "tagline": "Designed with input from sleep experts",
+  "description": "Developed with the National Sleep Foundation to address common sleep problems. Balanced comfort and support at an accessible price.",
+  "category": "Innerspring",
+  "url": "https://www.serta.com",
+  "affiliateUrl": "https://www.serta.com/perfect-sleeper",
+  "image": "/images/serta-perfect-sleeper.jpg",
+  "pricing": {
+    "price": "$799",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "Innerspring with foam comfort layers",
+    "firmness": "Medium (5.5/10)",
+    "height": "11.5 inches",
+    "warranty": "10 years",
+    "trial": "120 nights"
+  },
+  "features": [
+    "Custom Support coil system",
+    "Cool Twist Gel Foam",
+    "BestEdge Foam Encasement",
+    "NSF collaboration"
+  ],
+  "pros": [
+    "Affordable",
+    "Good for combination sleepers",
+    "Decent edge support",
+    "Widely available"
+  ],
+  "cons": [
+    "Average durability",
+    "Some motion transfer",
+    "Limited cooling"
+  ],
+  "bestFor": [
+    "Combination sleepers",
+    "Budget buyers",
+    "Those wanting NSF-approved design",
+    "Traditional mattress preference"
+  ],
+  "rating": {
+    "overall": 4.0,
+    "comfort": 4.1,
+    "support": 4.0,
+    "cooling": 3.8,
+    "value": 4.4
+  },
+  "lastUpdated": "2026-02-24",
+  "tags": ["innerspring", "budget", "combination sleeper", "traditional", "NSF"]
+}

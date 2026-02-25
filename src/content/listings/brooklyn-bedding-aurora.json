@@ -1,0 +1,57 @@
+{
+  "name": "Brooklyn Bedding Aurora",
+  "slug": "brooklyn-bedding-aurora",
+  "brand": "Brooklyn Bedding",
+  "model": "Aurora",
+  "tagline": "Advanced cooling hybrid for hot sleepers",
+  "description": "The Aurora features proprietary cooling technology including phase change material and TitanCool surface for exceptional temperature regulation.",
+  "category": "Cooling",
+  "url": "https://www.brooklynbedding.com",
+  "affiliateUrl": "https://www.brooklynbedding.com/products/aurora",
+  "image": "/images/brooklyn-aurora.jpg",
+  "pricing": {
+    "price": "$1699",
+    "salePrice": "$1274",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "Hybrid (foam + coils + cooling tech)",
+    "firmness": "Soft, Medium, Firm (4/10, 6/10, 8/10)",
+    "height": "13.5 inches",
+    "warranty": "10 years",
+    "trial": "120 nights"
+  },
+  "features": [
+    "TitanCool surface",
+    "CopperFlex foam",
+    "Phase change material",
+    "Individually wrapped coils",
+    "Three firmness options"
+  ],
+  "pros": [
+    "Exceptional cooling",
+    "Three firmness levels",
+    "Made in USA",
+    "Great support"
+  ],
+  "cons": [
+    "Expensive",
+    "Heavy",
+    "Might feel too cool for some"
+  ],
+  "bestFor": [
+    "Hot sleepers",
+    "All sleep positions (with firmness options)",
+    "Couples",
+    "Those wanting premium cooling"
+  ],
+  "rating": {
+    "overall": 4.6,
+    "comfort": 4.5,
+    "support": 4.7,
+    "cooling": 4.9,
+    "value": 4.3
+  },
+  "lastUpdated": "2026-02-24",
+  "tags": ["cooling", "hybrid", "hot sleeper", "customizable", "premium"]
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Eight Sleep Pod Pro",
+  "slug": "eight-sleep-pod",
+  "brand": "Eight Sleep",
+  "model": "Pod Pro",
+  "tagline": "Smart mattress with active temperature control",
+  "description": "The Pod Pro is a high-tech smart mattress with active heating and cooling, sleep tracking, and health monitoring. The ultimate in sleep technology.",
+  "category": "Cooling",
+  "subcategory": "Luxury",
+  "url": "https://www.eightsleep.com",
+  "affiliateUrl": "https://www.eightsleep.com/product/pod-pro",
+  "image": "/images/eight-sleep-pod.jpg",
+  "pricing": {
+    "price": "$2995",
+    "salePrice": "$2395",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "Memory foam with smart cover",
+    "firmness": "Medium-firm (6.5/10)",
+    "height": "11 inches",
+    "warranty": "10 years (mattress), 2 years (tech)",
+    "trial": "30 nights"
+  },
+  "features": [
+    "Active temperature control (-10 to 110°F)",
+    "Sleep tracking",
+    "Health monitoring",
+    "Dual-zone control",
+    "Smart alarm"
+  ],
+  "pros": [
+    "Precise temperature control",
+    "Advanced sleep tracking",
+    "Dual-zone for couples",
+    "App-controlled"
+  ],
+  "cons": [
+    "Very expensive",
+    "Requires subscription ($17/mo)",
+    "Short trial period",
+    "Complex setup"
+  ],
+  "bestFor": [
+    "Tech enthusiasts",
+    "Hot sleepers",
+    "Couples with different temp preferences",
+    "Those wanting sleep data"
+  ],
+  "rating": {
+    "overall": 4.3,
+    "comfort": 4.2,
+    "support": 4.3,
+    "cooling": 5.0,
+    "value": 3.5
+  },
+  "lastUpdated": "2026-02-24",
+  "tags": ["smart", "cooling", "luxury", "technology", "sleep tracking"]
+}

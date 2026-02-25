@@ -1,0 +1,56 @@
+{
+  "name": "Helix Midnight",
+  "slug": "helix-midnight",
+  "brand": "Helix",
+  "model": "Midnight",
+  "tagline": "Personalized hybrid mattress for side sleepers",
+  "description": "The Helix Midnight is specifically designed for side sleepers, offering plush comfort with targeted support.",
+  "category": "Hybrid",
+  "url": "https://www.helixsleep.com",
+  "affiliateUrl": "https://www.helixsleep.com/products/midnight-mattress",
+  "image": "/images/helix-midnight.jpg",
+  "pricing": {
+    "price": "$1099",
+    "salePrice": "$824",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "Hybrid (memory foam + coils)",
+    "firmness": "Medium (5/10)",
+    "height": "12 inches",
+    "warranty": "10 years",
+    "trial": "100 nights"
+  },
+  "features": [
+    "Helix Dynamic Foam",
+    "Memory Plus Foam",
+    "Individually wrapped coils",
+    "Breathable cover"
+  ],
+  "pros": [
+    "Perfect for side sleepers",
+    "Good pressure relief",
+    "Balanced support",
+    "Personalized options available"
+  ],
+  "cons": [
+    "May be too soft for stomach sleepers",
+    "Some edge sinkage",
+    "Initial off-gassing"
+  ],
+  "bestFor": [
+    "Side sleepers",
+    "Couples",
+    "Average weight individuals",
+    "Pressure relief seekers"
+  ],
+  "rating": {
+    "overall": 4.4,
+    "comfort": 4.6,
+    "support": 4.3,
+    "cooling": 4.2,
+    "value": 4.5
+  },
+  "lastUpdated": "2026-02-24",
+  "tags": ["hybrid", "side sleeper", "medium", "personalized", "pressure relief"]
+}

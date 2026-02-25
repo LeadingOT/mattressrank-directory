@@ -1,0 +1,57 @@
+{
+  "name": "DreamCloud Luxury Hybrid",
+  "slug": "dreamcloud-mattress",
+  "brand": "DreamCloud",
+  "model": "Luxury Hybrid",
+  "tagline": "Affordable luxury hybrid with premium materials",
+  "description": "DreamCloud delivers luxury hotel mattress feel at a competitive price. Euro top design with hybrid construction.",
+  "category": "Hybrid",
+  "subcategory": "Luxury",
+  "url": "https://www.dreamcloudsleep.com",
+  "affiliateUrl": "https://www.dreamcloudsleep.com/mattress",
+  "image": "/images/dreamcloud.jpg",
+  "pricing": {
+    "price": "$1099",
+    "salePrice": "$665",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "Hybrid (memory foam + coils)",
+    "firmness": "Medium-firm (6.5/10)",
+    "height": "14 inches",
+    "warranty": "Lifetime",
+    "trial": "365 nights"
+  },
+  "features": [
+    "Cashmere blend cover",
+    "Gel memory foam",
+    "Individually wrapped coils",
+    "High-density foam base"
+  ],
+  "pros": [
+    "Luxury feel at mid-range price",
+    "365-night trial",
+    "Lifetime warranty",
+    "Good edge support"
+  ],
+  "cons": [
+    "Heavy and difficult to move",
+    "Some motion transfer",
+    "Takes time to break in"
+  ],
+  "bestFor": [
+    "Back sleepers",
+    "Heavier individuals",
+    "Luxury seekers on budget",
+    "Couples"
+  ],
+  "rating": {
+    "overall": 4.5,
+    "comfort": 4.6,
+    "support": 4.7,
+    "cooling": 4.3,
+    "value": 4.7
+  },
+  "lastUpdated": "2026-02-24",
+  "tags": ["hybrid", "luxury", "medium-firm", "value", "long trial"]
+}

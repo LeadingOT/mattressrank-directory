@@ -1,0 +1,141 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ListingCard from '../components/ListingCard.astro';
+import { getCollection } from 'astro:content';
+
+const allListings = await getCollection('listings');
+const categories = [...new Set(allListings.map((l) => l.data.category))];
+
+// Sort by rating
+const topRated = allListings
+  .sort((a, b) => b.data.rating.overall - a.data.rating.overall)
+  .slice(0, 6);
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'MattressRank',
+  description: 'Expert mattress reviews, comparisons, and buying guides. Find the best mattress for your sleep position and budget.',
+  url: Astro.url.origin,
+};
+---
+
+<BaseLayout
+  title="Best Mattress Reviews & Rankings 2026 - MattressRank.info"
+  description="Expert reviews of 25+ top mattresses. Compare memory foam, latex, hybrid & innerspring. Independent testing, real ratings, best prices."
+  schema={schema}
+>
+  <!-- Hero -->
+  <section class="bg-gradient-to-r from-blue-50 to-indigo-50 py-16 px-4 rounded-lg mb-12">
+    <div class="max-w-4xl mx-auto text-center">
+      <h1 class="text-5xl font-bold mb-6">Find Your Perfect Mattress</h1>
+      <p class="text-xl text-gray-700 mb-8">
+        Expert reviews of 25+ top mattresses. Independent testing, real ratings, honest comparisons.
+      </p>
+      <div class="flex flex-wrap gap-4 justify-center">
+        <a href="#top-rated" class="px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition">
+          See Top Picks
+        </a>
+        <a href="/blog/how-to-choose-a-mattress" class="px-6 py-3 bg-white border-2 border-blue-600 text-blue-600 rounded-lg font-semibold hover:bg-blue-50 transition">
+          Buying Guide
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="mb-12">
+    <h2 class="text-3xl font-bold mb-6 text-center">Shop by Category</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      {categories.map((cat) => (
+        <a
+          href={`/category/${cat.toLowerCase().replace(/\s+/g, '-')}`}
+          class="p-6 bg-white border-2 border-gray-200 rounded-lg text-center hover:border-blue-500 hover:shadow-lg transition-all group"
+        >
+          <div class="text-2xl mb-2">🛏️</div>
+          <div class="font-semibold group-hover:text-blue-600">{cat}</div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Top Rated -->
+  <section id="top-rated" class="mb-12">
+    <h2 class="text-3xl font-bold mb-6">Top Rated Mattresses 2026</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {topRated.map((listing) => (
+        <ListingCard {...listing.data} />
+      ))}
+    </div>
+    <div class="text-center mt-8">
+      <a href="#all-mattresses" class="text-blue-600 hover:underline font-semibold">
+        View All {allListings.length} Mattresses →
+      </a>
+    </div>
+  </section>
+
+  <!-- Popular Guides -->
+  <section class="bg-gray-50 p-8 rounded-lg mb-12">
+    <h2 class="text-3xl font-bold mb-6 text-center">Popular Buying Guides</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+      <a href="/blog/how-to-choose-a-mattress" class="p-6 bg-white rounded-lg hover:shadow-lg transition">
+        <h3 class="text-xl font-bold mb-2">How to Choose a Mattress</h3>
+        <p class="text-gray-600">Complete buyer's guide for 2026</p>
+      </a>
+      <a href="/blog/mattress-types-comparison" class="p-6 bg-white rounded-lg hover:shadow-lg transition">
+        <h3 class="text-xl font-bold mb-2">Mattress Types Compared</h3>
+        <p class="text-gray-600">Memory foam vs latex vs hybrid</p>
+      </a>
+      <a href="/blog/best-mattresses-2026" class="p-6 bg-white rounded-lg hover:shadow-lg transition">
+        <h3 class="text-xl font-bold mb-2">Best Mattresses 2026</h3>
+        <p class="text-gray-600">Our top 15 picks tested & reviewed</p>
+      </a>
+      <a href="/blog/mattress-care-maintenance-guide" class="p-6 bg-white rounded-lg transition hover:shadow-lg">
+        <h3 class="text-xl font-bold mb-2">Mattress Care Guide</h3>
+        <p class="text-gray-600">Make your mattress last 10+ years</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- Quick Links -->
+  <section class="mb-12">
+    <h2 class="text-3xl font-bold mb-6 text-center">Find by Sleep Position</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <a href="/best-mattress-for-side-sleepers" class="p-6 bg-blue-50 rounded-lg hover:bg-blue-100 transition text-center">
+        <div class="text-3xl mb-3">😴</div>
+        <h3 class="text-xl font-bold mb-2">Side Sleepers</h3>
+        <p class="text-gray-600">Soft to medium, pressure relief</p>
+      </a>
+      <a href="/best-mattress-for-back-sleepers" class="p-6 bg-green-50 rounded-lg hover:bg-green-100 transition text-center">
+        <div class="text-3xl mb-3">🧘</div>
+        <h3 class="text-xl font-bold mb-2">Back Sleepers</h3>
+        <p class="text-gray-600">Medium-firm, lumbar support</p>
+      </a>
+      <a href="/best-mattress-for-stomach-sleepers" class="p-6 bg-purple-50 rounded-lg hover:bg-purple-100 transition text-center">
+        <div class="text-3xl mb-3">🏊</div>
+        <h3 class="text-xl font-bold mb-2">Stomach Sleepers</h3>
+        <p class="text-gray-600">Firm, minimal sinkage</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- All Listings -->
+  <section id="all-mattresses">
+    <h2 class="text-3xl font-bold mb-6">All Mattresses ({allListings.length})</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {allListings
+        .sort((a, b) => b.data.rating.overall - a.data.rating.overall)
+        .map((listing) => (
+          <ListingCard {...listing.data} />
+        ))}
+    </div>
+  </section>
+
+  <!-- Affiliate Disclosure -->
+  <section class="mt-16 p-6 bg-yellow-50 border-l-4 border-yellow-400 rounded">
+    <h3 class="font-bold text-lg mb-2">💡 Affiliate Disclosure</h3>
+    <p class="text-sm text-gray-700">
+      MattressRank.info is reader-supported. When you buy through links on our site, we may earn an affiliate commission at no additional cost to you. This helps us continue providing independent, honest mattress reviews. We only recommend mattresses our team has personally tested and would sleep on ourselves. Our rankings are based on real testing, not commission rates. <a href="/about" class="text-blue-600 hover:underline">Learn more about our review process</a>.
+    </p>
+  </section>
+</BaseLayout>

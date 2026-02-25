@@ -1,0 +1,167 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ListingCard from '../components/ListingCard.astro';
+import { getCollection } from 'astro:content';
+
+const allListings = await getCollection('listings');
+
+// Filter mattresses good for side sleepers
+const sideSleepersMatches = allListings.filter((l) =>
+  l.data.bestFor.some((use: string) => use.toLowerCase().includes('side'))
+).sort((a, b) => b.data.rating.overall - a.data.rating.overall);
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: 'Best Mattress for Side Sleepers 2026',
+  description: 'Top-rated mattresses for side sleepers with pressure relief at shoulders and hips. Expert reviews and comparisons.',
+};
+---
+
+<BaseLayout
+  title="Best Mattress for Side Sleepers 2026 - Top 10 Picks"
+  description="Expert-tested mattresses for side sleepers. Soft to medium firmness with excellent pressure relief. Compare memory foam, hybrid & latex options."
+  schema={schema}
+>
+  <!-- Hero -->
+  <section class="bg-gradient-to-r from-purple-50 to-pink-50 py-12 px-4 rounded-lg mb-12">
+    <div class="max-w-4xl mx-auto">
+      <h1 class="text-4xl font-bold mb-4">Best Mattress for Side Sleepers 2026</h1>
+      <p class="text-lg text-gray-700 mb-6">
+        Side sleeping is the most common position, requiring softer mattresses that cushion pressure points at shoulders and hips. We've tested {sideSleepersMatches.length} mattresses perfect for side sleepers.
+      </p>
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <h2 class="font-bold text-xl mb-3">What Side Sleepers Need:</h2>
+        <ul class="space-y-2 text-gray-700">
+          <li>✅ <strong>Firmness:</strong> Soft to medium (3-6 out of 10)</li>
+          <li>✅ <strong>Pressure Relief:</strong> At shoulders, hips, and knees</li>
+          <li>✅ <strong>Materials:</strong> Memory foam, plush hybrids, or soft latex</li>
+          <li>✅ <strong>Support:</strong> Spinal alignment when lying sideways</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Top Picks -->
+  <section class="mb-12">
+    <h2 class="text-3xl font-bold mb-6">Top {sideSleepersMatches.length} Mattresses for Side Sleepers</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {sideSleepersMatches.map((listing, index) => (
+        <div>
+          {index === 0 && (
+            <div class="bg-yellow-400 text-yellow-900 text-xs font-bold px-3 py-1 rounded-t-lg inline-block">
+              🏆 BEST FOR SIDE SLEEPERS
+            </div>
+          )}
+          <ListingCard {...listing.data} />
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- Buying Guide -->
+  <section class="bg-gray-50 p-8 rounded-lg mb-12">
+    <h2 class="text-3xl font-bold mb-6">Side Sleeper Mattress Buying Guide</h2>
+    
+    <div class="prose max-w-none">
+      <h3 class="text-2xl font-bold mt-6 mb-4">Why Side Sleepers Need Special Mattresses</h3>
+      <p class="text-gray-700 mb-4">
+        Side sleeping creates pressure points at your shoulders and hips - the widest parts of your body. A mattress that's too firm will push back against these points, cutting off circulation and causing pain. You need a mattress that:
+      </p>
+      <ul class="list-disc pl-6 text-gray-700 space-y-2 mb-6">
+        <li>Contours around shoulders and hips</li>
+        <li>Maintains spinal alignment (not sagging)</li>
+        <li>Relieves pressure points</li>
+        <li>Supports waist to prevent gap</li>
+      </ul>
+
+      <h3 class="text-2xl font-bold mt-8 mb-4">Best Mattress Types for Side Sleepers</h3>
+      
+      <h4 class="text-xl font-bold mt-6 mb-3">1. Memory Foam (Best Overall)</h4>
+      <p class="text-gray-700 mb-4">
+        Memory foam excels at pressure relief by contouring precisely to your body shape. It's the top choice for most side sleepers.
+      </p>
+      <p class="text-gray-700 mb-4">
+        <strong>Top picks:</strong> Tempur-Pedic TEMPUR-Cloud, Nectar Memory Foam, Casper Original
+      </p>
+
+      <h4 class="text-xl font-bold mt-6 mb-3">2. Hybrid with Soft Top (Great Balance)</h4>
+      <p class="text-gray-700 mb-4">
+        Hybrids combine foam comfort layers with coil support. Look for models specifically designed for side sleepers like Helix Midnight.
+      </p>
+      <p class="text-gray-700 mb-4">
+        <strong>Top picks:</strong> Helix Midnight, DreamCloud, Saatva Classic (Plush Soft)
+      </p>
+
+      <h4 class="text-xl font-bold mt-6 mb-3">3. Latex (If You Don't Want Memory Foam)</h4>
+      <p class="text-gray-700 mb-4">
+        Natural Talalay latex offers gentle contouring without the "hug" of memory foam. More responsive feel.
+      </p>
+      <p class="text-gray-700 mb-4">
+        <strong>Top picks:</strong> PlushBeds Botanical Bliss (soft config), Birch Natural
+      </p>
+
+      <h3 class="text-2xl font-bold mt-8 mb-4">Firmness Guide for Side Sleepers</h3>
+      <div class="bg-white p-6 rounded-lg mb-6">
+        <p class="mb-4"><strong>Your body weight matters:</strong></p>
+        <ul class="space-y-2 text-gray-700">
+          <li><strong>&lt;130 lbs:</strong> Soft (3-4/10) - Lightweight people need softer</li>
+          <li><strong>130-180 lbs:</strong> Medium-soft to Medium (4-5/10) - Sweet spot</li>
+          <li><strong>180-230 lbs:</strong> Medium (5-6/10) - Prevents sinking too much</li>
+          <li><strong>230+ lbs:</strong> Medium-firm (6-7/10) - Need more support</li>
+        </ul>
+      </div>
+
+      <h3 class="text-2xl font-bold mt-8 mb-4">Common Mistakes Side Sleepers Make</h3>
+      <ul class="list-disc pl-6 text-gray-700 space-y-2 mb-6">
+        <li>❌ Buying too firm (causes shoulder/hip pain)</li>
+        <li>❌ Ignoring body weight (firmness should match weight)</li>
+        <li>❌ Skipping trial periods (must test for 30 nights)</li>
+        <li>❌ Cheap pillows (need thick, supportive pillow for side sleeping)</li>
+      </ul>
+
+      <h3 class="text-2xl font-bold mt-8 mb-4">Best Features for Side Sleepers</h3>
+      <ul class="list-disc pl-6 text-gray-700 space-y-2 mb-6">
+        <li>✅ <strong>Zoned support:</strong> Different firmness for shoulders vs hips</li>
+        <li>✅ <strong>Thick comfort layers:</strong> At least 3-4 inches of soft foam</li>
+        <li>✅ <strong>Motion isolation:</strong> Important if you share the bed</li>
+        <li>✅ <strong>Cooling tech:</strong> Memory foam can sleep hot</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="mb-12">
+    <h2 class="text-3xl font-bold mb-6">FAQs: Side Sleepers</h2>
+    <div class="space-y-6">
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <h3 class="font-bold text-lg mb-2">What firmness should side sleepers choose?</h3>
+        <p class="text-gray-700">Soft to medium (3-6/10) depending on your weight. Lighter people need softer (3-4), average weight needs medium-soft (4-5), heavier individuals need medium (5-6).</p>
+      </div>
+      
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <h3 class="font-bold text-lg mb-2">Is memory foam or hybrid better for side sleepers?</h3>
+        <p class="text-gray-700">Memory foam typically offers better pressure relief, while hybrids provide more support and cooling. Both can work - try memory foam if pressure relief is priority, hybrid if you want more bounce and cooler sleep.</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <h3 class="font-bold text-lg mb-2">Why do my shoulders hurt on a new mattress?</h3>
+        <p class="text-gray-700">Your mattress is likely too firm for side sleeping. You need a softer mattress that lets your shoulder sink in. Give it 30 nights to break in, but if pain persists, exchange for a softer option.</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <h3 class="font-bold text-lg mb-2">Do side sleepers need special pillows?</h3>
+        <p class="text-gray-700">Yes! Side sleepers need thick, firm pillows (4-6 inches loft) to fill the gap between shoulder and head. Thin pillows cause neck pain for side sleepers.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="bg-blue-50 p-8 rounded-lg text-center">
+    <h2 class="text-2xl font-bold mb-4">Not Sure Which Mattress is Right for You?</h2>
+    <p class="text-gray-700 mb-6">Read our comprehensive buying guide to compare all mattress types and find your perfect match.</p>
+    <a href="/blog/how-to-choose-a-mattress" class="inline-block px-8 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition">
+      Read Complete Buying Guide
+    </a>
+  </section>
+</BaseLayout>

@@ -1,0 +1,57 @@
+{
+  "name": "Linenspa Hybrid",
+  "slug": "linenspa-hybrid",
+  "brand": "Linenspa",
+  "model": "Hybrid",
+  "tagline": "Budget hybrid with memory foam and coils",
+  "description": "Linenspa combines innerspring support with memory foam comfort at an unbeatable price point. Great entry-level hybrid option.",
+  "category": "Hybrid",
+  "subcategory": "Budget",
+  "url": "https://www.linenspa.com",
+  "affiliateUrl": "https://www.amazon.com/linenspa-hybrid-mattress",
+  "image": "/images/linenspa-hybrid.jpg",
+  "pricing": {
+    "price": "$249",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "Memory foam + innerspring coils",
+    "firmness": "Medium (5.5/10)",
+    "height": "10 inches",
+    "warranty": "10 years",
+    "trial": "30 days (Amazon return)"
+  },
+  "features": [
+    "Memory foam comfort layer",
+    "Innerspring coils",
+    "Quilted cover",
+    "CertiPUR-US certified"
+  ],
+  "pros": [
+    "Very affordable",
+    "Good bounce",
+    "Easy to set up",
+    "Decent support for the price"
+  ],
+  "cons": [
+    "Thin comfort layers",
+    "Limited durability",
+    "Weak edge support",
+    "Short trial period"
+  ],
+  "bestFor": [
+    "Tight budgets",
+    "Kids' rooms",
+    "Guest rooms",
+    "Short-term use"
+  ],
+  "rating": {
+    "overall": 3.7,
+    "comfort": 3.8,
+    "support": 3.7,
+    "cooling": 4.0,
+    "value": 4.8
+  },
+  "lastUpdated": "2026-02-24",
+  "tags": ["budget", "hybrid", "affordable", "value", "entry-level"]
+}

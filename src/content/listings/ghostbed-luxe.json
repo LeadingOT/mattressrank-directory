@@ -1,0 +1,56 @@
+{
+  "name": "GhostBed Luxe",
+  "slug": "ghostbed-luxe",
+  "brand": "GhostBed",
+  "model": "Luxe",
+  "tagline": "The coolest mattress in the world",
+  "description": "GhostBed Luxe features advanced cooling technology with phase change material and Ghost Ice fabric to sleep up to 7 degrees cooler.",
+  "category": "Cooling",
+  "url": "https://www.ghostbed.com",
+  "affiliateUrl": "https://www.ghostbed.com/products/ghostbed-luxe",
+  "image": "/images/ghostbed-luxe.jpg",
+  "pricing": {
+    "price": "$1845",
+    "salePrice": "$1290",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "Memory foam with cooling tech",
+    "firmness": "Medium (5.5/10)",
+    "height": "13 inches",
+    "warranty": "25 years",
+    "trial": "101 nights"
+  },
+  "features": [
+    "Ghost Ice fabric",
+    "Phase change material",
+    "Gel memory foam",
+    "7-zone support"
+  ],
+  "pros": [
+    "Exceptional cooling",
+    "25-year warranty",
+    "Good pressure relief",
+    "Balanced support"
+  ],
+  "cons": [
+    "Expensive",
+    "All-foam may sleep hot for some",
+    "Heavy"
+  ],
+  "bestFor": [
+    "Hot sleepers",
+    "Side sleepers",
+    "Those wanting premium cooling",
+    "Couples"
+  ],
+  "rating": {
+    "overall": 4.5,
+    "comfort": 4.6,
+    "support": 4.4,
+    "cooling": 4.9,
+    "value": 4.2
+  },
+  "lastUpdated": "2026-02-24",
+  "tags": ["cooling", "memory foam", "hot sleeper", "premium", "phase change"]
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Tuft & Needle Mint",
+  "slug": "tuft-needle-mint",
+  "brand": "Tuft & Needle",
+  "model": "Mint",
+  "tagline": "Premium upgrade with extra cooling and support",
+  "description": "T&N Mint adds cooling graphite, extra support foam, and a softer feel to the classic T&N formula. Great all-around mattress.",
+  "category": "Memory Foam",
+  "url": "https://www.tuftandneedle.com",
+  "affiliateUrl": "https://www.tuftandneedle.com/mattress/mint",
+  "image": "/images/tuft-needle-mint.jpg",
+  "pricing": {
+    "price": "$1095",
+    "salePrice": "$876",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "Adaptive foam",
+    "firmness": "Medium (5.5/10)",
+    "height": "12 inches",
+    "warranty": "10 years",
+    "trial": "100 nights"
+  },
+  "features": [
+    "Graphite and cooling gel",
+    "Extra support foam",
+    "Adaptive T&N foam",
+    "Antimicrobial cover"
+  ],
+  "pros": [
+    "Great cooling",
+    "Balanced feel",
+    "Good value",
+    "Responsive foam"
+  ],
+  "cons": [
+    "May be too firm for strict side sleepers",
+    "Edge support average",
+    "All-foam construction"
+  ],
+  "bestFor": [
+    "Hot sleepers",
+    "Back sleepers",
+    "Combination sleepers",
+    "Those wanting foam without sinking"
+  ],
+  "rating": {
+    "overall": 4.5,
+    "comfort": 4.5,
+    "support": 4.5,
+    "cooling": 4.7,
+    "value": 4.6
+  },
+  "lastUpdated": "2026-02-24",
+  "tags": ["memory foam", "cooling", "graphite", "value", "medium"]
+}
