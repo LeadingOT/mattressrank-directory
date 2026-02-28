@@ -22,6 +22,15 @@ const siteUrl = import.meta.env.SITE || 'https://example.com';
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical || Astro.url.href} />
 
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BP0S500KSN"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-BP0S500KSN');
+    </script>
+
     <!-- Open Graph -->
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
