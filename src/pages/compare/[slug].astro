@@ -26,10 +26,13 @@ const { toolA, toolB } = Astro.props;
 const pageTitle = `${toolA.name} vs ${toolB.name} — Detailed Comparison 2026`;
 const pageDesc = `Compare ${toolA.name} and ${toolB.name} side by side. Features, pricing, pros & cons.`;
 
+const ratingA = typeof toolA.rating === 'number' ? toolA.rating : toolA.rating?.overall || 'N/A';
+const ratingB = typeof toolB.rating === 'number' ? toolB.rating : toolB.rating?.overall || 'N/A';
+
 const faqs = [
   {
     question: `Is ${toolA.name} better than ${toolB.name}?`,
-    answer: `${toolA.name} is rated ${toolA.rating}/5 while ${toolB.name} is rated ${toolB.rating}/5. The best choice depends on your needs.`,
+    answer: `${toolA.name} is rated ${ratingA}/5 while ${toolB.name} is rated ${ratingB}/5. The best choice depends on your needs.`,
   },
   {
     question: `What is the price difference?`,
@@ -67,7 +70,7 @@ const faqSchema = {
         <div class="border rounded-lg p-5">
           <h2 class="text-xl font-bold mb-2">{tool.name}</h2>
           <p class="text-sm text-gray-500 mb-3">{tool.tagline || tool.description?.slice(0, 100)}</p>
-          {tool.rating && <div class="text-yellow-600 font-semibold mb-3">★ {tool.rating.toFixed(1)}/5</div>}
+          {tool.rating && <div class="text-yellow-600 font-semibold mb-3">★ {typeof tool.rating === 'number' ? tool.rating.toFixed(1) : tool.rating.overall?.toFixed(1) || 'N/A'}/5</div>}
           
           {tool.pricing && (
             <div class="mb-3">
