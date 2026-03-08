@@ -4,7 +4,7 @@
   "brand": "Cocoon by Sealy",
   "model": "Chill",
   "tagline": "Memory foam with phase change cooling",
-  "description": "Cocoon Chill features phase change material in the cover to actively absorb and dissipate heat. Available in soft or firm.",
+  "description": "The Cocoon by Sealy Chill is a mattress designed to regulate sleep temperature using phase change material integrated directly into its cover. This material works by absorbing excess body heat when you get warm, helping to dissipate it and maintain a more consistent, cooler surface throughout the night. It is an effective solution for sleepers who often overheat.\n\nThis mattress is constructed with a durable foam core and is available in two comfort levels: soft (for side sleepers or those who prefer a plush feel) and firm (for back, stomach, or combination sleepers needing more support). A key feature is its CertiPUR-US certified foam, which is made without harmful chemicals. The mattress also comes with a removable, machine-washable cover for easy cleaning and is compressed and shipped in a box for straightforward setup.\n\nThe Cocoon Chill is ideal for hot sleepers, couples with different firmness preferences, and anyone seeking a practical cooling solution without complex technology or high costs. Its primary benefit is delivering a noticeably cooler sleep surface that actively manages heat buildup.\n\nA clear use case is a couple where one partner sleeps hot and prefers a soft feel, while the other needs firmer support. They can order two separate Cocoon Chill mattresses in their preferred firmness, each receiving the same cooling benefit, and potentially use them on an adjustable base or in a split king configuration.",
   "category": "Cooling",
   "url": "https://www.cocoonbysealy.com",
   "affiliateUrl": "https://www.cocoonbysealy.com/mattress",
@@ -52,5 +52,11 @@
     "value": 4.5
   },
   "lastUpdated": "2026-02-24",
-  "tags": ["cooling", "memory foam", "phase change", "value", "hot sleeper"]
+  "tags": [
+    "cooling",
+    "memory foam",
+    "phase change",
+    "value",
+    "hot sleeper"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "Casper",
   "model": "Original",
   "tagline": "The mattress that started the bed-in-a-box revolution",
-  "description": "Casper's flagship all-foam mattress combines zoned support with pressure relief. A balanced feel suitable for most sleep positions.",
+  "description": "The Casper Original is an all-foam mattress designed to provide a balanced, medium-firm feel that accommodates a wide range of sleepers. Its primary function is to offer both targeted support and pressure relief, creating a comfortable surface for back, side, and stomach sleepers. The mattress achieves this through its zoned support system, which is a key standout feature. This system uses firmer foam under the torso and shoulders to keep your spine aligned, while softer foam at the head and foot areas cushions pressure points.\n\nAnother important feature is the breathable, open-cell foam in the top layer. This material helps dissipate heat more effectively than traditional memory foam, aiming to reduce night-time overheating. The all-foam construction also provides excellent motion isolation, meaning movement on one side of the bed is less likely to disturb a partner.\n\nThis mattress is ideal for individuals or couples seeking a versatile, no-fuss bed with a universally comfortable feel. It’s particularly well-suited for combination sleepers who change positions during the night, as the zoned support adapts to different postures. A clear use case is a couple where one person is a back sleeper and the other is a side sleeper; both can find adequate support and pressure relief in one shared mattress. The main benefit is a thoughtfully engineered sleep surface that promotes spinal alignment and even weight distribution without an overly sinking sensation, contributing to better sleep quality and reduced morning aches.",
   "category": "Memory Foam",
   "url": "https://www.casper.com",
   "affiliateUrl": "https://www.amazon.com/casper-original",
@@ -47,9 +47,15 @@
     "overall": 4.4,
     "comfort": 4.5,
     "support": 4.3,
-    "cooling": 4.0,
+    "cooling": 4,
     "value": 4.6
   },
   "lastUpdated": "2026-02-24",
-  "tags": ["memory foam", "medium", "bed-in-a-box", "combination sleeper", "value"]
+  "tags": [
+    "memory foam",
+    "medium",
+    "bed-in-a-box",
+    "combination sleeper",
+    "value"
+  ]
 }

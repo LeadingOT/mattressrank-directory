@@ -4,7 +4,7 @@
   "brand": "Beautyrest",
   "model": "Black",
   "tagline": "Premium luxury innerspring with advanced cooling",
-  "description": "Beautyrest's flagship luxury line featuring T3 Pocketed Coil technology and BlackICE cooling for exceptional support and temperature regulation.",
+  "description": "The Beautyrest Black is a premium innerspring mattress designed for sleepers who prioritize a balance of deep support and effective temperature regulation. Its core function is to provide durable, body-contouring comfort that minimizes sleep disruptions from pressure points and overheating.\n\nThe mattress achieves this through several key features. Its T3 Pocketed Coil technology uses a triple-shielded design to reinforce each individual coil, providing targeted support that reduces motion transfer and enhances durability. For cooling, the BlackICE system incorporates a phase-change material in the cover that works to absorb and dissipate body heat throughout the night. The comfort layers often include high-density memory foam for pressure relief that adapts closely to your body shape.\n\nThis mattress is ideal for combination sleepers, couples, and individuals with back or joint concerns who tend to sleep warm. The independent coil system offers the responsive support needed for easy movement and spinal alignment, while the cooling components address a common cause of restlessness.\n\nA clear use case is a couple where one partner is a restless sleeper and the other is sensitive to heat. The T3 coils isolate movement so shifts are less likely to be felt across the bed, while the BlackICE technology helps both individuals maintain a more consistent, comfortable sleeping temperature. The main benefit is a more undisturbed and restorative sleep, supported by a stable and cool sleeping surface.",
   "category": "Innerspring",
   "subcategory": "Luxury",
   "url": "https://www.beautyrest.com",
@@ -52,5 +52,11 @@
     "value": 3.8
   },
   "lastUpdated": "2026-02-24",
-  "tags": ["innerspring", "luxury", "cooling", "premium", "support"]
+  "tags": [
+    "innerspring",
+    "luxury",
+    "cooling",
+    "premium",
+    "support"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "DreamCloud",
   "model": "Luxury Hybrid",
   "tagline": "Affordable luxury hybrid with premium materials",
-  "description": "DreamCloud delivers luxury hotel mattress feel at a competitive price. Euro top design with hybrid construction.",
+  "description": "The DreamCloud Luxury Hybrid mattress is designed to provide the balanced comfort and support of a high-end hotel bed for your home. It combines multiple layers of memory foam and individually wrapped coils to create a universally comfortable feel that suits most sleepers.\n\nIts construction is the key to its performance. The quilted Euro-top provides immediate plush comfort, while the layers of gel-infused memory foam contour to your body to relieve pressure points. Beneath this, a system of hundreds of individual coils offers targeted support, reduces motion transfer, and promotes airflow to help regulate temperature throughout the night. This hybrid design is ideal for combination sleepers, couples, and anyone who finds all-foam mattresses too warm or lacking in support. The primary benefit is achieving a truly balanced feel—cushioned comfort without sinking, and firm support without feeling hard.\n\nA clear use case is for a couple with different sleep preferences. One partner may need pressure relief for their shoulders, while the other requires firm support for their back. The DreamCloud Hybrid addresses both needs simultaneously, minimizing disturbance when one person moves. Its durable design ensures this performance lasts, making it a practical, long-term investment in better sleep.",
   "category": "Hybrid",
   "subcategory": "Luxury",
   "url": "https://www.dreamcloudsleep.com",
@@ -53,5 +53,11 @@
     "value": 4.7
   },
   "lastUpdated": "2026-02-24",
-  "tags": ["hybrid", "luxury", "medium-firm", "value", "long trial"]
+  "tags": [
+    "hybrid",
+    "luxury",
+    "medium-firm",
+    "value",
+    "long trial"
+  ]
 }

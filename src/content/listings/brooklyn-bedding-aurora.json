@@ -4,7 +4,7 @@
   "brand": "Brooklyn Bedding",
   "model": "Aurora",
   "tagline": "Advanced cooling hybrid for hot sleepers",
-  "description": "The Aurora features proprietary cooling technology including phase change material and TitanCool surface for exceptional temperature regulation.",
+  "description": "The Brooklyn Bedding Aurora is a mattress designed to actively manage sleep temperature for those who tend to sleep hot. Its primary function is to draw heat away from the body and dissipate it, promoting a consistently cool sleeping surface throughout the night.\n\nIt achieves this through several key features. The surface is a special TitanCool fabric that feels cool to the touch and enhances airflow. Beneath that, a layer of phase change material absorbs and releases heat to help regulate your skin's temperature. The mattress also incorporates a patented CopperFlex foam, which is more breathable than traditional memory foam and adds responsive support.\n\nThis mattress is ideal for combination sleepers, couples with different firmness preferences, and anyone whose sleep is disrupted by overheating. A clear use case is a person who alternates between positions during the night and needs both pressure relief and a mattress that won't trap heat, especially in the shoulder and hip areas.\n\nThe main benefit is improved sleep continuity through better temperature regulation. The Aurora's standout features are its immediate cool-to-the-touch cover, its heat-absorbing phase change layer, and its breathable, responsive CopperFlex foam core. It is available in multiple firmness levels to suit individual comfort needs.",
   "category": "Cooling",
   "url": "https://www.brooklynbedding.com",
   "affiliateUrl": "https://www.brooklynbedding.com/products/aurora",
@@ -53,5 +53,11 @@
     "value": 4.3
   },
   "lastUpdated": "2026-02-24",
-  "tags": ["cooling", "hybrid", "hot sleeper", "customizable", "premium"]
+  "tags": [
+    "cooling",
+    "hybrid",
+    "hot sleeper",
+    "customizable",
+    "premium"
+  ]
 }

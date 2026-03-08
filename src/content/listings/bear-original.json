@@ -4,7 +4,7 @@
   "brand": "Bear",
   "model": "Original",
   "tagline": "Recovery-focused mattress for active individuals",
-  "description": "Designed for athletes and active people, the Bear Original features Celliant technology to help promote muscle recovery and better sleep.",
+  "description": "The Bear Original is a memory foam pillow specifically engineered to support muscle recovery and improve sleep quality for active individuals. Its core function is to leverage Celliant infrared technology woven into the cover. This material is designed to recycle body heat into infrared energy, which aims to increase local circulation and cellular oxygenation. This process can help reduce muscle stiffness and soreness, allowing for more restorative sleep and better preparation for the next day's training.\n\nKey features include a responsive memory foam core that conforms to the head and neck for proper spinal alignment, and a removable, machine-washable Celliant cover for easy maintenance. The pillow is particularly suited for athletes, fitness enthusiasts, or anyone with a physically demanding lifestyle who experiences muscle fatigue or restless sleep. The main benefit is waking up feeling less sore and more recovered.\n\nA clear use case is a runner after a long training day or a high-intensity workout. Using the Bear Original can help address the micro-tears in muscle tissue by promoting increased blood flow to the area during sleep, which may accelerate the body's natural repair processes. The supportive memory foam also maintains a cool, comfortable sleeping position throughout the night.",
   "category": "Memory Foam",
   "url": "https://www.bearmattress.com",
   "affiliateUrl": "https://www.bearmattress.com/products/bear-mattress",
@@ -52,5 +52,11 @@
     "value": 4.5
   },
   "lastUpdated": "2026-02-24",
-  "tags": ["memory foam", "cooling", "athletes", "recovery", "value"]
+  "tags": [
+    "memory foam",
+    "cooling",
+    "athletes",
+    "recovery",
+    "value"
+  ]
 }

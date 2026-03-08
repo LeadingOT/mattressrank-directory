@@ -4,7 +4,7 @@
   "brand": "Eight Sleep",
   "model": "Pod Pro",
   "tagline": "Smart mattress with active temperature control",
-  "description": "The Pod Pro is a high-tech smart mattress with active heating and cooling, sleep tracking, and health monitoring. The ultimate in sleep technology.",
+  "description": "The Eight Sleep Pod Pro is a smart mattress cover that actively regulates your sleep temperature. It replaces your mattress topper and connects to an app, allowing you to set a precise temperature for each side of the bed, ranging from cool to warm. Its primary function is to solve the common problem of sleeping too hot or too cold by providing personalized climate control throughout the night.\n\nKey features include its dual-zone active heating and cooling, which lets each partner set their ideal temperature. It also provides detailed sleep tracking and health monitoring, using sensors to measure metrics like sleep stages, heart rate, and respiratory rate. The Autopilot feature automatically adjusts the bed's temperature based on your sleep cycle and real-time biometrics to promote deeper sleep.\n\nThis product is ideal for hot sleepers, couples with different temperature preferences, or anyone focused on optimizing their recovery and sleep quality through data. A clear use case is a person who consistently wakes up overheated; they can program the Pod Pro to start cool and gradually warm slightly toward morning, maintaining an uninterrupted, comfortable sleep environment. The main benefit is achieving more consistent, high-quality sleep by removing temperature as a disruptive factor, leading to better rest and next-day alertness.",
   "category": "Cooling",
   "subcategory": "Luxury",
   "url": "https://www.eightsleep.com",
@@ -51,9 +51,15 @@
     "overall": 4.3,
     "comfort": 4.2,
     "support": 4.3,
-    "cooling": 5.0,
+    "cooling": 5,
     "value": 3.5
   },
   "lastUpdated": "2026-02-24",
-  "tags": ["smart", "cooling", "luxury", "technology", "sleep tracking"]
+  "tags": [
+    "smart",
+    "cooling",
+    "luxury",
+    "technology",
+    "sleep tracking"
+  ]
 }

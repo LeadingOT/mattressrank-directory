@@ -4,7 +4,7 @@
   "brand": "Birch",
   "model": "Natural Mattress",
   "tagline": "Affordable organic latex mattress",
-  "description": "Birch offers organic materials and natural latex at a more accessible price point than competitors. Great eco-friendly option.",
+  "description": "The Birch Natural Mattress is a latex mattress designed to provide a supportive and breathable sleep surface using certified organic and natural materials. It is constructed with a core of natural Dunlop latex, which offers durable, pressure-relieving support and inherent cooling airflow. This core is typically wrapped in a layer of organic wool, which acts as a natural fire barrier and moisture-wicking temperature regulator, and is encased in a breathable, organic cotton cover.\n\nKey features include its GOLS-certified organic latex, GOTS-certified organic wool and cotton, and an overall non-toxic construction free from synthetic foams and chemical flame retardants. This makes it a standout choice for eco-conscious shoppers, hot sleepers seeking a cooler bed, and individuals with sensitivities to chemicals or synthetic materials. The natural latex provides a responsive feel that is both supportive and contouring, suitable for various sleep positions.\n\nThe main benefit is achieving a healthier sleep environment without sacrificing comfort or durability, all at a notably accessible price point for a natural mattress. A clear use case is for a couple where one partner sleeps hot and the other is concerned about allergens; the Birch’s breathable, hypoallergenic materials address both needs effectively. It’s a practical investment for those prioritizing organic certification and natural cooling in a resilient mattress.",
   "category": "Latex",
   "url": "https://www.birchliving.com",
   "affiliateUrl": "https://www.birchliving.com/products/natural-mattress",
@@ -52,5 +52,11 @@
     "value": 4.7
   },
   "lastUpdated": "2026-02-24",
-  "tags": ["latex", "organic", "value", "eco-friendly", "medium-firm"]
+  "tags": [
+    "latex",
+    "organic",
+    "value",
+    "eco-friendly",
+    "medium-firm"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "Amerisleep",
   "model": "AS3",
   "tagline": "Bio-based memory foam for balanced comfort",
-  "description": "The AS3 is Amerisleep's most popular model, balancing comfort and support with eco-friendly Bio-Pur foam that sleeps cooler than traditional memory foam.",
+  "description": "The Amerisleep AS3 is a medium-firm memory foam mattress designed to provide a balanced feel of pressure relief and support. It uses the brand's proprietary Bio-Pur foam, a plant-based material that is more breathable and responsive than traditional memory foam. This construction aims to solve common issues like sleeping hot and feeling \"stuck\" in the bed, while still contouring to the body to alleviate aches at the shoulders, hips, and lower back.\n\nKey features include the open-cell Bio-Pur foam in the comfort layer for cooler sleep and quicker response to movement. The transition and base foam layers provide durable support and prevent excessive sinkage. The mattress is also GREENGUARD Gold certified, ensuring low chemical emissions for better indoor air quality.\n\nThis model is ideal for combination sleepers, couples with differing preferences, or average-weight individuals who want a true medium feel—not too soft, not too firm. Its balanced design makes it a versatile choice for a wide range of sleepers.\n\nThe main benefit is a comfortable, supportive sleep surface that sleeps temperature-neutral. A clear use case is a couple where one partner tends to sleep hot and needs pressure relief, while the other requires firmer support for back sleeping; the AS3 addresses both needs in one mattress. Its all-foam design also minimizes motion transfer, reducing sleep disturbances.",
   "category": "Memory Foam",
   "url": "https://www.amerisleep.com",
   "affiliateUrl": "https://www.amerisleep.com/as3.html",
@@ -52,5 +52,11 @@
     "value": 4.2
   },
   "lastUpdated": "2026-02-24",
-  "tags": ["memory foam", "eco-friendly", "bio-based", "cooling", "medium"]
+  "tags": [
+    "memory foam",
+    "eco-friendly",
+    "bio-based",
+    "cooling",
+    "medium"
+  ]
 }

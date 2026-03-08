@@ -4,7 +4,7 @@
   "brand": "Avocado",
   "model": "Green Mattress",
   "tagline": "Organic latex hybrid for eco-conscious sleepers",
-  "description": "100% natural and organic materials including GOLS certified latex and GOTS certified cotton and wool. Eco-luxury at its finest.",
+  "description": "The Avocado Green Mattress is a premium latex mattress designed for those seeking a durable, supportive, and environmentally responsible sleep surface. It uses certified organic and natural materials to provide a comfortable and healthy night's rest.\n\nThis mattress is constructed with a core of GOLS-certified organic Dunlop latex, which offers responsive pressure relief and contouring support that minimizes motion transfer. The mattress is wrapped in a plush, breathable cover made from GOTS-certified organic cotton and wool. The wool acts as a natural fire barrier and moisture-wicking layer, while the cotton promotes airflow. A key feature is its customizable firmness; many models offer a reversible design with a plush side and a firmer side, allowing you to choose the feel that best suits your body. The mattress is also meticulously crafted without polyurethane foams, chemical flame retardants, or synthetic latex.\n\nIt is ideal for eco-conscious shoppers, combination sleepers, and individuals with allergies or sensitivities who prioritize non-toxic materials. The main benefit is a deeply restorative sleep on a sustainably sourced product that is built to last.\n\nA clear use case is for a couple with different firmness preferences. One partner may prefer the cushioning feel of the plush side, while the other may need the reinforced support of the firmmer side; the reversible design accommodates both on a single, stable mattress that limits sleep disturbance.",
   "category": "Latex",
   "subcategory": "Luxury",
   "url": "https://www.avocadogreenmattress.com",
@@ -56,5 +56,11 @@
     "value": 4.4
   },
   "lastUpdated": "2026-02-24",
-  "tags": ["latex", "organic", "eco-friendly", "luxury", "firm"]
+  "tags": [
+    "latex",
+    "organic",
+    "eco-friendly",
+    "luxury",
+    "firm"
+  ]
 }
