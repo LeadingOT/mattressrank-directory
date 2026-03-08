@@ -72,9 +72,7 @@ const siteUrl = import.meta.env.SITE || 'https://example.com';
 
     <!-- Schema.org JSON-LD -->
     {schema && (
-      <script type="application/ld+json" set:html={JSON.stringify(schema)} />
-    )}
-
+    {schema && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   </head>
