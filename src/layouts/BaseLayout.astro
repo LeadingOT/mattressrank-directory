@@ -75,6 +75,38 @@ const siteUrl = import.meta.env.SITE || 'https://example.com';
     {schema && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  
+    <!-- GEO Optimization: Organization Schema -->
+    <script type="application/ld+json">
+      {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Mattress Rank",
+  "url": "https://mattressrank.info",
+  "description": "Comprehensive directory and comparison of tools on mattressrank.info",
+  "logo": "https://mattressrank.info/logo.png",
+  "sameAs": []
+}
+    </script>
+    
+    <!-- GEO Optimization: WebSite Schema -->
+    <script type="application/ld+json">
+      {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Mattress Rank",
+  "url": "https://mattressrank.info",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://mattressrank.info/search?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+    </script>
+  
   </head>
   <body class="bg-white text-gray-900 antialiased">
     <nav class="border-b border-gray-200 bg-white">

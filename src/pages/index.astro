@@ -18,12 +18,21 @@ const schema = {
   description: 'Expert mattress reviews, comparisons, and buying guides. Find the best mattress for your sleep position and budget.',
   url: Astro.url.origin,
 };
+
+const itemListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Best Mattresses 2026",
+  "description": "Compare and review the top 12 tools in this category",
+  "numberOfItems": 12,
+  "url": "https://mattressrank.info"
+};
 ---
 
 <BaseLayout
   title="Best Mattress Reviews & Rankings 2026 - MattressRank.info"
   description="Expert reviews of 25+ top mattresses. Compare memory foam, latex, hybrid & innerspring. Independent testing, real ratings, best prices."
-  schema={schema}
+  schema={itemListSchema}
 >
   <!-- Hero -->
   <section class="bg-gradient-to-r from-blue-50 to-indigo-50 py-16 px-4 rounded-lg mb-12">

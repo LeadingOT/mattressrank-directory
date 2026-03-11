@@ -1,0 +1,29 @@
+# Mattress Rank
+
+> Mattress reviews, rankings, and buying guides
+
+## Categories
+
+- [Memory Foam](/category/memory-foam): Pressure relief mattresses
+- [Hybrid Mattresses](/category/hybrid-mattresses): Spring and foam combination
+- [Innerspring](/category/innerspring): Traditional coil mattresses
+- [Latex Mattresses](/category/latex-mattresses): Natural and eco-friendly
+- [Budget Mattresses](/category/budget-mattresses): Affordable options under $500
+
+## Comparison Guides
+
+- [Best Mattresses for Back Pain](/best/best-mattresses-for-back-pain)
+- [Best Budget Mattresses 2026](/best/best-budget-mattresses-2026)
+- [Best Cooling Mattresses for Hot Sleepers](/best/best-cooling-mattresses-for-hot-sleepers)
+
+## Key Facts
+
+- 12 tools reviewed and compared
+- 5 categories covering all types
+- 3 in-depth comparison guides
+- Updated March 2026
+- Independent reviews — not sponsored
+
+## Sitemap
+
+- [Sitemap](https://#{domain}/sitemap-index.xml)
