@@ -60,4 +60,4 @@ User-agent: ImagesiftBot
 Allow: /
 Disallow: /api/
 
-Sitemap: https://mattressrank.info/sitemap.xml
+Sitemap: https://mattressrank.info/sitemap-index.xml
