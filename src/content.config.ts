@@ -40,6 +40,8 @@ const listings = defineCollection({
     }),
     lastUpdated: z.string(),
     tags: z.array(z.string()),
+    seoTitle: z.string().optional(),
+    seoDescription: z.string().optional(),
   }),
 });
 
@@ -52,6 +54,8 @@ const blog = defineCollection({
     author: z.string().default('MattressRank Team'),
     image: z.string().optional(),
     tags: z.array(z.string()),
+    seoTitle: z.string().optional(),
+    seoDescription: z.string().optional(),
   }),
 });
 
