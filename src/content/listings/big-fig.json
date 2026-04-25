@@ -1,0 +1,70 @@
+{
+  "name": "Big Fig",
+  "slug": "big-fig",
+  "brand": "Big Fig",
+  "model": "The Big Fig",
+  "tagline": "Purpose-built mattress for plus-size sleepers — no compromises",
+  "description": "Big Fig is the first mattress specifically designed and engineered for heavier individuals (up to 1,100 lbs per couple). Unlike standard mattresses that sag under heavy weight, the Big Fig uses a reinforced hybrid construction with high-density foams, a 50% stronger coil system, and a firm feel to maintain spinal alignment and durability for years. It features a ThermoGel cooling layer and a never-sag foundation for ultimate peace of mind.",
+  "category": "Hybrid",
+  "subcategory": "Plus-Size",
+  "url": "https://www.bigfigmattress.com",
+  "affiliateUrl": "https://www.bigfigmattress.com/products/mattress",
+  "image": "/images/big-fig.jpg",
+  "pricing": {
+    "price": "$1899",
+    "salePrice": "$1499",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "Reinforced hybrid (high-density foam + 15-gauge coils)",
+    "firmness": "Firm (8/10)",
+    "height": "13 inches",
+    "warranty": "20 years",
+    "trial": "120 nights"
+  },
+  "features": [
+    "1,600 individually wrapped coils (50% stronger)",
+    "High-density foam layers (up to 3× standard density)",
+    "ThermoGel cooling technology",
+    "Tufted top with reinforced handles",
+    "Foundation with 18-slat support"
+  ],
+  "pros": [
+    "Designed specifically for plus-size sleepers",
+    "1100 lb weight capacity per couple",
+    "20-year warranty (non-prorated)",
+    "Doesn't sag over time",
+    "Excellent edge support"
+  ],
+  "cons": [
+    "Very firm — not for plush lovers",
+    "Heavy and difficult to move",
+    "Limited cooling for some",
+    "Higher price than budget options"
+  ],
+  "bestFor": [
+    "Plus-size individuals (250+ lbs)",
+    "Heavy couples (500+ lbs combined)",
+    "Stomach sleepers",
+    "Those tired of mattress sagging",
+    "Back sleepers needing firm support"
+  ],
+  "rating": {
+    "overall": 4.5,
+    "comfort": 4.0,
+    "support": 5.0,
+    "cooling": 3.9,
+    "value": 4.7
+  },
+  "lastUpdated": "2026-04-25",
+  "tags": [
+    "hybrid",
+    "plus-size",
+    "heavy duty",
+    "firm",
+    "durability",
+    "stomach sleeper"
+  ],
+  "seoTitle": "Big Fig Mattress 2026: Best Heavy-Duty Mattress for Plus-Size Sleepers?",
+  "seoDescription": "Big Fig is built for heavier bodies — 1,100 lb capacity. No sagging, no compromise. See why plus-size sleepers love this mattress!"
+}

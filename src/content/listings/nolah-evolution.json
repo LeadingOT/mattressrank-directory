@@ -1,0 +1,67 @@
+{
+  "name": "Nolah Evolution",
+  "slug": "nolah-evolution",
+  "brand": "Nolah",
+  "model": "Evolution",
+  "tagline": "Premium hybrid with patented pressure-relieving foam",
+  "description": "The Nolah Evolution is a luxury 15-inch hybrid mattress featuring the brand's proprietary AirFoamICE technology. It delivers superior pressure relief without the heat retention of traditional memory foam, wrapped in a premium Euro-top design. Available in three firmness options to suit any sleep position.",
+  "category": "Hybrid",
+  "subcategory": "Luxury",
+  "url": "https://www.nolahmattress.com",
+  "affiliateUrl": "https://www.nolahmattress.com/products/nolah-evolution",
+  "image": "/images/nolah-evolution.jpg",
+  "pricing": {
+    "price": "$2499",
+    "salePrice": "$1499",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "AirFoamICE + individually wrapped coils",
+    "firmness": "Plush, Luxury Firm, Firm (4/10, 6/10, 8/10)",
+    "height": "15 inches",
+    "warranty": "Lifetime",
+    "trial": "120 nights"
+  },
+  "features": [
+    "Patented AirFoamICE layer",
+    "Tri-Zone coil support system",
+    "Euro-top cover with heat-dissipating fibers",
+    "Reinforced edge support",
+    "Three firmness options"
+  ],
+  "pros": [
+    "Exceptional pressure relief",
+    "Cooler than memory foam",
+    "Three firmness choices",
+    "Extra-thick 15-inch profile",
+    "Lifetime warranty"
+  ],
+  "cons": [
+    "Premium price point",
+    "Very heavy",
+    "May be too thick for some frames"
+  ],
+  "bestFor": [
+    "Side sleepers needing pressure relief",
+    "Hot sleepers who want hybrid",
+    "Those wanting luxury feel",
+    "Couples with different preferences"
+  ],
+  "rating": {
+    "overall": 4.7,
+    "comfort": 4.8,
+    "support": 4.6,
+    "cooling": 4.5,
+    "value": 4.4
+  },
+  "lastUpdated": "2026-04-25",
+  "tags": [
+    "hybrid",
+    "luxury",
+    "pressure relief",
+    "cooling",
+    "premium"
+  ],
+  "seoTitle": "Nolah Evolution 2026: Luxury Hybrid With Advanced Cooling?",
+  "seoDescription": "Explore the Nolah Evolution — a 15-inch luxury hybrid with AirFoamICE technology. Three firmness options. Is it worth the hype? Learn more!"
+}

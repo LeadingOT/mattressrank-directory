@@ -1,0 +1,67 @@
+{
+  "name": "Awara Natural",
+  "slug": "awara-natural",
+  "brand": "Awara",
+  "model": "Natural Hybrid",
+  "tagline": "Eco-friendly latex hybrid at an accessible price point",
+  "description": "The Awara Natural Hybrid combines organic Dunlop latex with individually wrapped coils for a supportive, responsive, and eco-conscious sleep experience. It offers the durability of latex with the support of coils at a more affordable price than most organic competitors. Plus, every purchase supports tree-planting initiatives.",
+  "category": "Latex",
+  "subcategory": "Eco-Friendly",
+  "url": "https://www.awarasleep.com",
+  "affiliateUrl": "https://www.awarasleep.com/products/awara-mattress",
+  "image": "/images/awara-natural.jpg",
+  "pricing": {
+    "price": "$1699",
+    "salePrice": "$1049",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "Organic Dunlop latex + pocketed coils",
+    "firmness": "Medium-firm (7/10)",
+    "height": "13 inches",
+    "warranty": "Lifetime",
+    "trial": "365 nights"
+  },
+  "features": [
+    "Organic Dunlop latex",
+    "Individually wrapped coils",
+    "Organic cotton cover",
+    "Rainforest Alliance certified",
+    "Plants a tree per purchase"
+  ],
+  "pros": [
+    "Organic and eco-friendly",
+    "Excellent durability",
+    "365-night trial",
+    "Lifetime warranty",
+    "Tree planting initiative"
+  ],
+  "cons": [
+    "Firmer than average",
+    "Heavy (hard to move)",
+    "Limited pressure relief"
+  ],
+  "bestFor": [
+    "Eco-conscious shoppers",
+    "Back and stomach sleepers",
+    "Hot sleepers",
+    "Those wanting durability"
+  ],
+  "rating": {
+    "overall": 4.4,
+    "comfort": 4.2,
+    "support": 4.7,
+    "cooling": 4.6,
+    "value": 4.6
+  },
+  "lastUpdated": "2026-04-25",
+  "tags": [
+    "latex",
+    "hybrid",
+    "organic",
+    "eco-friendly",
+    "back sleeper"
+  ],
+  "seoTitle": "Awara Natural Hybrid 2026: The Best Affordable Organic Mattress?",
+  "seoDescription": "Explore Awara's eco-friendly latex hybrid mattress. Organic materials, lifetime warranty, and tree planting. See why it's a top choice!"
+}

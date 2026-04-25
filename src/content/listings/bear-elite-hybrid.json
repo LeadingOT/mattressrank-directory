@@ -1,0 +1,67 @@
+{
+  "name": "Bear Elite Hybrid",
+  "slug": "bear-elite-hybrid",
+  "brand": "Bear",
+  "model": "Elite Hybrid",
+  "tagline": "Premium recovery-focused hybrid for athletes and active sleepers",
+  "description": "The Bear Elite Hybrid is the brand's flagship mattress, upgrading the popular Bear Original with a hybrid coil system, enhanced cooling, and multiple firmness options. It features the same Celliant infrared recovery technology but with a more luxurious feel. Ideal for athletes and active individuals who want the recovery benefits with better support and cooling.",
+  "category": "Hybrid",
+  "subcategory": "Athletic Recovery",
+  "url": "https://www.bearmattress.com",
+  "affiliateUrl": "https://www.bearmattress.com/products/bear-elite-hybrid",
+  "image": "/images/bear-elite-hybrid.jpg",
+  "pricing": {
+    "price": "$1849",
+    "salePrice": "$1295",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "Memory foam + pocketed coils + Celliant cover",
+    "firmness": "Soft, Medium, Firm (4/10, 6/10, 8/10)",
+    "height": "14 inches",
+    "warranty": "Lifetime",
+    "trial": "120 nights"
+  },
+  "features": [
+    "Celliant infrared recovery cover",
+    "Copper-infused memory foam for cooling",
+    "Zoned coil support system",
+    "Three firmness options",
+    "Matching foundation available"
+  ],
+  "pros": [
+    "Celliant recovery technology",
+    "Multiple firmness choices",
+    "Better cooling than Bear Original",
+    "Lifetime warranty",
+    "Zoned support for alignment"
+  ],
+  "cons": [
+    "Premium pricing",
+    "Celliant benefits debated",
+    "Heavy (140+ lbs)"
+  ],
+  "bestFor": [
+    "Athletes and active people",
+    "Back pain sufferers",
+    "Those wanting multiple firmness options",
+    "Hot sleepers who want hybrid"
+  ],
+  "rating": {
+    "overall": 4.5,
+    "comfort": 4.5,
+    "support": 4.7,
+    "cooling": 4.5,
+    "value": 4.3
+  },
+  "lastUpdated": "2026-04-25",
+  "tags": [
+    "hybrid",
+    "athletic recovery",
+    "cooling",
+    "premium",
+    "Celliant"
+  ],
+  "seoTitle": "Bear Elite Hybrid 2026: Premium Recovery Mattress for Athletes?",
+  "seoDescription": "Bear Elite Hybrid upgrades the popular Bear mattress with coils and multiple firmness options. Celliant technology for recovery. Learn more!"
+}

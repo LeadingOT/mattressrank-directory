@@ -1,43 +1,60 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
 
-const blogPosts = [
-  {
-    slug: 'mattress-buying-guide',
-    title: 'Complete Mattress Buying Guide 2026',
-    description: 'Learn how to choose the perfect mattress based on sleep position, firmness, and budget.',
-    date: 'March 3, 2026',
-    readTime: '10 min read',
-  },
-];
+export const prerender = true;
+
+const blogPosts = await getCollection('blog');
+
+// Sort by date, newest first
+const sortedPosts = blogPosts.sort((a, b) =>
+  new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
+);
+
+const getSlug = (post: typeof blogPosts[0]) => post.id.replace('.md', '');
+
+// Estimate read time based on content length (rough: 200 words/min)
+const estimateReadTime = (post: typeof blogPosts[0]) => {
+  const body = post.body || '';
+  const words = body.split(/\s+/).length;
+  const minutes = Math.max(1, Math.ceil(words / 200));
+  return `${minutes} min read`;
+};
 ---
 
 <BaseLayout
-  title="Mattress Buying Guides - MattressRank.info Blog"
-  description="Expert mattress guides and buying tips to help you choose the perfect bed for better sleep."
+  title="Mattress Buying Guides & Tips - MattressRank.info Blog"
+  description="Expert mattress guides, comparisons, and buying tips to help you choose the perfect bed for better sleep."
 >
   <div class="max-w-4xl mx-auto px-4 py-12">
     <h1 class="text-4xl font-bold mb-4">Mattress Buying Guides</h1>
     <p class="text-xl text-gray-600 mb-12">
-      Expert advice on choosing the perfect mattress for your sleep style and budget.
+      Expert advice on choosing the perfect mattress for your sleep style, budget, and health needs.
     </p>
 
     <div class="space-y-8">
-      {blogPosts.map(post => (
+      {sortedPosts.map(post => (
         <article class="border-b pb-8">
-          <a href={`/blog/${post.slug}/`} class="group">
+          <a href={`/blog/${getSlug(post)}/`} class="group">
             <h2 class="text-2xl font-semibold mb-2 group-hover:text-blue-600 transition">
-              {post.title}
+              {post.data.title}
             </h2>
           </a>
           <div class="text-sm text-gray-500 mb-3">
-            {post.date} · {post.readTime}
+            {new Date(post.data.pubDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })} · {estimateReadTime(post)}
           </div>
-          <p class="text-gray-700 mb-4">
-            {post.description}
+          <p class="text-gray-700 mb-3">
+            {post.data.description}
           </p>
-          <a href={`/blog/${post.slug}/`} class="text-blue-600 hover:underline">
-            Read more →
+          {post.data.tags && (
+            <div class="flex flex-wrap gap-2 mb-3">
+              {post.data.tags.map((tag: string) => (
+                <span class="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded">{tag}</span>
+              ))}
+            </div>
+          )}
+          <a href={`/blog/${getSlug(post)}/`} class="text-blue-600 hover:underline font-medium">
+            Read full article →
           </a>
         </article>
       ))}

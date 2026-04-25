@@ -1,0 +1,67 @@
+{
+  "name": "Molecule AirTEC",
+  "slug": "molecule-airtec",
+  "brand": "Molecule",
+  "model": "AirTEC",
+  "tagline": "Scientifically engineered recovery mattress trusted by athletes",
+  "description": "Molecule is the official sleep partner of the NFL, PGA TOUR, and USA Triathlon, and the AirTEC is their flagship mattress. It features proprietary AirTEC foam with Microban antimicrobial technology and a zoned support system for targeted pressure relief. The advanced open-cell structure provides 7× better airflow than traditional memory foam, making it a top choice for athletes who need recovery and cooling.",
+  "category": "Memory Foam",
+  "subcategory": "Athletic Recovery",
+  "url": "https://www.onthemolecule.com",
+  "affiliateUrl": "https://www.onthemolecule.com/products/airtec-mattress",
+  "image": "/images/molecule-airtec.jpg",
+  "pricing": {
+    "price": "$1199",
+    "salePrice": "$799",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "AirTEC foam + Microban antimicrobial",
+    "firmness": "Medium-firm (6/10)",
+    "height": "10 inches",
+    "warranty": "Lifetime",
+    "trial": "100 nights"
+  },
+  "features": [
+    "7× more airflow than traditional memory foam",
+    "Microban antimicrobial protection",
+    "ZoneFlo targeted support",
+    "Official partner of NFL and PGA",
+    "RecoveryFlo open-cell structure"
+  ],
+  "pros": [
+    "Trusted by professional athletes",
+    "Exceptional airflow/cooling",
+    "Antimicrobial protection",
+    "Lifetime warranty",
+    "Good for recovery and recovery"
+  ],
+  "cons": [
+    "Firmer than some expect",
+    "Less pressure relief than Tempur",
+    "Limited showroom availability"
+  ],
+  "bestFor": [
+    "Athletes and fitness enthusiasts",
+    "Hot sleepers who want foam",
+    "Back and combination sleepers",
+    "Those wanting antimicrobial features"
+  ],
+  "rating": {
+    "overall": 4.3,
+    "comfort": 4.1,
+    "support": 4.5,
+    "cooling": 4.7,
+    "value": 4.3
+  },
+  "lastUpdated": "2026-04-25",
+  "tags": [
+    "memory foam",
+    "athletic recovery",
+    "cooling",
+    "antimicrobial",
+    "NFL partner"
+  ],
+  "seoTitle": "Molecule AirTEC 2026: Pro Athlete Recovery Mattress, Now for You?",
+  "seoDescription": "Molecule AirTEC — official mattress of the NFL and PGA. 7× better airflow, Microban protection. Does the science-backed sleep work? Find out!"
+}

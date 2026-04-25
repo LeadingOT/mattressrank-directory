@@ -1,0 +1,68 @@
+{
+  "name": "Allswell Luxe",
+  "slug": "allswell-luxe",
+  "brand": "Allswell",
+  "model": "Luxe Hybrid",
+  "tagline": "Budget-friendly hybrid with luxury touches from a Walmart brand",
+  "description": "The Allswell Luxe Hybrid is a surprisingly well-built mattress at a budget price point, backed by Walmart. It combines individually wrapped coils with graphite-infused memory foam and a quilted Euro-top cover. With copper gel infusion for cooling, it outperforms its price tag and is an excellent option for value seekers who want the hybrid feel without the premium price.",
+  "category": "Hybrid",
+  "subcategory": "Budget",
+  "url": "https://www.allswellhome.com",
+  "affiliateUrl": "https://www.walmart.com/brand/allswell",
+  "image": "/images/allswell-luxe.jpg",
+  "pricing": {
+    "price": "$799",
+    "salePrice": "$449",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "Hybrid (graphite memory foam + pocketed coils)",
+    "firmness": "Medium-firm (6.5/10)",
+    "height": "12 inches",
+    "warranty": "10 years",
+    "trial": "100 nights"
+  },
+  "features": [
+    "Graphite-infused memory foam",
+    "Copper gel cooling layer",
+    "Individually wrapped coils",
+    "Quilted Euro-top cover",
+    "Walmart distribution network"
+  ],
+  "pros": [
+    "Excellent value under $500",
+    "Hybrid construction at budget price",
+    "Copper gel cooling",
+    "Euro-top premium feel",
+    "Easy Walmart returns"
+  ],
+  "cons": [
+    "Average durability (6-8 years)",
+    "Limited warranty (10 years)",
+    "Some off-gassing",
+    "Edge support could be better"
+  ],
+  "bestFor": [
+    "Budget shoppers wanting hybrid",
+    "Guest rooms and first apartments",
+    "Students and young professionals",
+    "Those wanting Walmart convenience"
+  ],
+  "rating": {
+    "overall": 4.2,
+    "comfort": 4.3,
+    "support": 4.2,
+    "cooling": 4.1,
+    "value": 4.8
+  },
+  "lastUpdated": "2026-04-25",
+  "tags": [
+    "hybrid",
+    "budget",
+    "value",
+    "Walmart",
+    "copper cooling"
+  ],
+  "seoTitle": "Allswell Luxe Hybrid 2026: Best Budget Hybrid Under $500?",
+  "seoDescription": "Allswell Luxe packs hybrid coils, copper cooling, and a Euro-top into a budget mattress. Walmart brand, surprising quality. See our review!"
+}

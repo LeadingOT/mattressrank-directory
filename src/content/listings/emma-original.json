@@ -1,0 +1,67 @@
+{
+  "name": "Emma Original",
+  "slug": "emma-original",
+  "brand": "Emma",
+  "model": "Original",
+  "tagline": "Award-winning European memory foam mattress at a budget price",
+  "description": "The Emma Original is Europe's most-awarded mattress, now available in the US. Its three-layer foam design combines pressure-relieving memory foam with a supportive base and a breathable Airgocell top layer. With over 3 million mattresses sold and a 365-night trial, it's a proven performer for budget-conscious shoppers who don't want to compromise.",
+  "category": "Memory Foam",
+  "subcategory": "Budget",
+  "url": "https://www.emma-sleep.com",
+  "affiliateUrl": "https://www.emma-sleep.com/products/emma-original-mattress",
+  "image": "/images/emma-original.jpg",
+  "pricing": {
+    "price": "$799",
+    "salePrice": "$499",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "Airgocell + memory foam + support foam",
+    "firmness": "Medium (5.5/10)",
+    "height": "10 inches",
+    "warranty": "10 years",
+    "trial": "365 nights"
+  },
+  "features": [
+    "Airgocell breathable top layer",
+    "Visco-elastic memory foam",
+    "High-resilience support foam",
+    "Removable, washable cover",
+    "Zero-motion transfer"
+  ],
+  "pros": [
+    "Excellent value for money",
+    "Award-winning design",
+    "365-night trial",
+    "Good motion isolation",
+    "Breathable foam layers"
+  ],
+  "cons": [
+    "Average edge support",
+    "Moderate cooling only",
+    "Firmer than expected for some"
+  ],
+  "bestFor": [
+    "Budget shoppers",
+    "Back and side sleepers",
+    "Couples (good motion isolation)",
+    "European brand enthusiasts"
+  ],
+  "rating": {
+    "overall": 4.4,
+    "comfort": 4.3,
+    "support": 4.3,
+    "cooling": 4.0,
+    "value": 5.0
+  },
+  "lastUpdated": "2026-04-25",
+  "tags": [
+    "memory foam",
+    "budget",
+    "value",
+    "award-winning",
+    "motion isolation"
+  ],
+  "seoTitle": "Emma Original Mattress 2026: Award-Winning Comfort on a Budget?",
+  "seoDescription": "Emma Original: Europe's most-awarded mattress now in the US. 365-night trial, budget pricing. Is it worth the hype? Find out here!"
+}

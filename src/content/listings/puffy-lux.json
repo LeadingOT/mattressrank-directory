@@ -1,0 +1,67 @@
+{
+  "name": "Puffy Lux",
+  "slug": "puffy-lux",
+  "brand": "Puffy",
+  "model": "Lux Hybrid",
+  "tagline": "Premium hybrid with body-adapting dual cloud foam technology",
+  "description": "The Puffy Lux Hybrid is a step up from the Puffy Cloud, adding a coil support system and an additional comfort layer for deeper pressure relief. Its patented Body Adapting Dual Cloud Foam contours to individual pressure points while the coils provide targeted support. With a 101-night trial and lifetime warranty, it competes with premium brands at a more accessible price point.",
+  "category": "Hybrid",
+  "subcategory": "Luxury",
+  "url": "https://www.puffy.com",
+  "affiliateUrl": "https://www.puffy.com/products/puffy-lux-hybrid",
+  "image": "/images/puffy-lux.jpg",
+  "pricing": {
+    "price": "$1999",
+    "salePrice": "$1349",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "Dual Cloud foam + Climate Fiber + pocketed coils",
+    "firmness": "Medium (5.5/10)",
+    "height": "12 inches",
+    "warranty": "Lifetime",
+    "trial": "101 nights"
+  },
+  "features": [
+    "Body Adapting Dual Cloud Foam",
+    "Pocketed coil support core",
+    "Climate-adaptive fiber layer",
+    "Cooling cover with stain resistance",
+    "Targeted pressure relief"
+  ],
+  "pros": [
+    "Deep pressure relief",
+    "Good for all sleep positions",
+    "Lifetime warranty",
+    "Hybrid support + foam comfort",
+    "Stain-resistant cooling cover"
+  ],
+  "cons": [
+    "Higher price than Puffy Cloud",
+    "May sleep warm for some",
+    "Less bounce than innerspring hybrids"
+  ],
+  "bestFor": [
+    "Side sleepers wanting deep comfort",
+    "Couples with different firmness needs",
+    "Those upgrading from budget foam",
+    "People wanting balanced hybrid feel"
+  ],
+  "rating": {
+    "overall": 4.5,
+    "comfort": 4.7,
+    "support": 4.4,
+    "cooling": 4.2,
+    "value": 4.3
+  },
+  "lastUpdated": "2026-04-25",
+  "tags": [
+    "hybrid",
+    "luxury",
+    "pressure relief",
+    "side sleeper",
+    "lifetime warranty"
+  ],
+  "seoTitle": "Puffy Lux Hybrid 2026: Deep Pressure Relief Meets Coil Support?",
+  "seoDescription": "Puffy Lux Hybrid adds coils to the cloud-like Puffy formula. Body Adapting Dual Cloud technology. Perfect for side sleepers? Read our review!"
+}

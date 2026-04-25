@@ -1,0 +1,69 @@
+{
+  "name": "Zenhaven Latex",
+  "slug": "zenhaven-latex",
+  "brand": "Saatva",
+  "model": "Zenhaven",
+  "tagline": "Flippable all-latex luxury mattress for the ultimate natural sleep",
+  "description": "The Zenhaven is Saatva's all-natural Talalay latex mattress, featuring a unique flippable design with two firmness levels in one bed. Made from 100% natural latex, organic cotton, and organic New Zealand wool, it's one of the most eco-friendly mattresses on the market. The talalay process creates a lighter, more breathable latex that's perfect for hot sleepers seeking luxury.",
+  "category": "Latex",
+  "subcategory": "Luxury",
+  "url": "https://www.saatva.com",
+  "affiliateUrl": "https://www.saatva.com/products/zenhaven",
+  "image": "/images/zenhaven-latex.jpg",
+  "pricing": {
+    "price": "$3295",
+    "salePrice": "$2895",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "100% natural Talalay latex",
+    "firmness": "Gentle Firm (5/10) on one side, Luxury Plush (4/10) on the other",
+    "height": "10 inches",
+    "warranty": "Lifetime",
+    "trial": "365 nights"
+  },
+  "features": [
+    "Flippable (2 firmness levels)",
+    "100% natural Talalay latex",
+    "Organic cotton cover",
+    "Organic New Zealand wool fire barrier",
+    "No synthetic materials"
+  ],
+  "pros": [
+    "Two firmness levels in one mattress",
+    "100% natural and organic",
+    "Exceptional durability (20+ years)",
+    "Excellent cooling",
+    "Lifetime warranty + 365-night trial"
+  ],
+  "cons": [
+    "Very expensive",
+    "Extremely heavy (hard to flip)",
+    "Less pressure relief than memory foam",
+    "Shipping/delivery challenges"
+  ],
+  "bestFor": [
+    "Eco-conscious luxury buyers",
+    "Hot sleepers wanting natural materials",
+    "Those wanting long-term investment",
+    "Back and combination sleepers"
+  ],
+  "rating": {
+    "overall": 4.5,
+    "comfort": 4.4,
+    "support": 4.6,
+    "cooling": 4.8,
+    "value": 4.0
+  },
+  "lastUpdated": "2026-04-25",
+  "tags": [
+    "latex",
+    "luxury",
+    "organic",
+    "flippable",
+    "natural",
+    "eco-friendly"
+  ],
+  "seoTitle": "Zenhaven by Saatva 2026: Flippable Luxury Latex Worth the Price?",
+  "seoDescription": "Zenhaven offers two firmness levels in one all-natural Talalay latex mattress. 100% organic, lifetime warranty. Explore this eco-luxury pick!"
+}

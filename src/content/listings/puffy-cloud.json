@@ -1,0 +1,67 @@
+{
+  "name": "Puffy Cloud",
+  "slug": "puffy-cloud",
+  "brand": "Puffy",
+  "model": "Cloud",
+  "tagline": "Cloud-like comfort with advanced cooling at an affordable price",
+  "description": "The Puffy Cloud mattress offers a sink-in, cloud-like feel with advanced cooling technology. Its multi-layer foam construction provides pressure relief while keeping you cool all night. With a lifetime warranty and 101-night trial, it's a risk-free option for foam lovers.",
+  "category": "Memory Foam",
+  "subcategory": "Budget",
+  "url": "https://www.puffy.com",
+  "affiliateUrl": "https://www.puffy.com/products/puffy-mattress",
+  "image": "/images/puffy-cloud.jpg",
+  "pricing": {
+    "price": "$1349",
+    "salePrice": "$899",
+    "currency": "USD"
+  },
+  "specs": {
+    "material": "Gel memory foam + Climate Fiber",
+    "firmness": "Medium (5/10)",
+    "height": "10 inches",
+    "warranty": "Lifetime",
+    "trial": "101 nights"
+  },
+  "features": [
+    "Cooling Cloud foam top layer",
+    "Climate-adaptive fiber layer",
+    "Firm core support foam",
+    "Stain-resistant cloud cover",
+    "Excellent pressure relief"
+  ],
+  "pros": [
+    "Cloud-like soft feel",
+    "Excellent cooling for foam",
+    "Lifetime warranty",
+    "Good for side sleepers",
+    "Stain-resistant cover"
+  ],
+  "cons": [
+    "May be too soft for stomach sleepers",
+    "Average edge support",
+    "Takes time to fully expand"
+  ],
+  "bestFor": [
+    "Side sleepers",
+    "People wanting plush feel",
+    "Hot sleepers who prefer foam",
+    "Budget luxury buyers"
+  ],
+  "rating": {
+    "overall": 4.4,
+    "comfort": 4.6,
+    "support": 4.2,
+    "cooling": 4.3,
+    "value": 4.5
+  },
+  "lastUpdated": "2026-04-25",
+  "tags": [
+    "memory foam",
+    "cooling",
+    "side sleeper",
+    "plush",
+    "lifetime warranty"
+  ],
+  "seoTitle": "Puffy Cloud Mattress 2026: Luxury Softness, Cloud-Like Comfort?",
+  "seoDescription": "Discover the Puffy Cloud mattress with cooling technology and plush comfort. Is it the cloud-like sleep you've been dreaming of? Find out now!"
+}
