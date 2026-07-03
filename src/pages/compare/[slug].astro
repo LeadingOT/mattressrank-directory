@@ -36,14 +36,36 @@ const pageDesc = `Compare ${toolA.name} and ${toolB.name} side by side. Features
 const ratingA = typeof toolA.rating === 'number' ? toolA.rating : toolA.rating?.overall || 'N/A';
 const ratingB = typeof toolB.rating === 'number' ? toolB.rating : toolB.rating?.overall || 'N/A';
 
+// Price helper — supports both the mattress schema (pricing.price/salePrice) and the tools schema (startingPrice/model)
+const priceOf = (t: any) => {
+  const p = t.pricing || {};
+  if (p.price) return p.salePrice ? `${p.salePrice} (was ${p.price})` : p.price;
+  return p.startingPrice || p.model || 'varies';
+};
+const priceA = priceOf(toolA);
+const priceB = priceOf(toolB);
+const bestA = (toolA.bestFor && toolA.bestFor[0]) || toolA.subcategory || toolA.category;
+const bestB = (toolB.bestFor && toolB.bestFor[0]) || toolB.subcategory || toolB.category;
+const specLine = (t: any) => [t.specs?.material, t.specs?.firmness].filter(Boolean).join(', ');
+const specA = specLine(toolA);
+const specB = specLine(toolB);
+
+// Answer-first verdict (data-driven, grounded — no fabricated facts)
+const verdict =
+  `${toolA.name} (rated ${ratingA}/5${priceA !== 'varies' ? `, ${priceA}` : ''}) and ${toolB.name} (rated ${ratingB}/5${priceB !== 'varies' ? `, ${priceB}` : ''}) are both strong picks, so the right one depends on fit. ` +
+  `Choose the ${toolA.name} if you want ${String(bestA).toLowerCase()}${specA ? ` — it's a ${specA} build` : ''}. ` +
+  `Choose the ${toolB.name} if you want ${String(bestB).toLowerCase()}${specB ? ` (${specB})` : ''}. ` +
+  `${ratingA !== 'N/A' && ratingB !== 'N/A' && ratingA !== ratingB ? `On our overall score the ${(ratingA > ratingB ? toolA : toolB).name} edges ahead (${Math.max(ratingA, ratingB)} vs ${Math.min(ratingA, ratingB)}). ` : ''}` +
+  `Match the firmness and best-for below to your sleep position and budget before deciding.`;
+
 const faqs = [
   {
     question: `Is ${toolA.name} better than ${toolB.name}?`,
-    answer: `${toolA.name} is rated ${ratingA}/5 while ${toolB.name} is rated ${ratingB}/5. The best choice depends on your needs.`,
+    answer: `${toolA.name} is rated ${ratingA}/5 while ${toolB.name} is rated ${ratingB}/5. ${toolA.name} best suits ${String(bestA).toLowerCase()}, whereas ${toolB.name} best suits ${String(bestB).toLowerCase()} — so the better choice depends on your sleep position, firmness preference and budget.`,
   },
   {
-    question: `What is the price difference?`,
-    answer: `${toolA.name}: ${toolA.pricing?.startingPrice || toolA.pricing?.model || 'varies'}. ${toolB.name}: ${toolB.pricing?.startingPrice || toolB.pricing?.model || 'varies'}.`,
+    question: `What is the price difference between ${toolA.name} and ${toolB.name}?`,
+    answer: `${toolA.name} is ${priceA}. ${toolB.name} is ${priceB}. Check for current sales, as mattress prices change frequently.`,
   },
 ];
 
@@ -60,10 +82,9 @@ const faqSchema = {
 
 
 <BaseLayout
-  title={seoData.seoTitle || pageTitle}}
-  description={seoData.seoDescription || pageDesc}}
+  title={seoData.seoTitle || pageTitle}
+  description={seoData.seoDescription || pageDesc}
   canonical={`https://mattressrank.info/compare/${toolA.slug}-vs-${toolB.slug}`}
-  schema={faqSchema}
 >
   <article class="max-w-4xl mx-auto px-4">
     <div class="text-sm text-gray-500 mb-4">
@@ -71,7 +92,11 @@ const faqSchema = {
     </div>
 
     <h1 class="text-3xl font-bold mb-4">{pageTitle}</h1>
-    <p class="text-gray-600 mb-8">Side-by-side comparison to help you choose.</p>
+
+    <!-- Answer-first verdict (GEO evidence container) -->
+    <section class="mb-8 bg-blue-50 border border-blue-100 rounded-lg p-5">
+      <p class="text-gray-800 leading-relaxed">{verdict}</p>
+    </section>
 
     <div class="grid md:grid-cols-2 gap-6 mb-10">
       {[toolA, toolB].map((tool) => (
@@ -83,7 +108,7 @@ const faqSchema = {
           {tool.pricing && (
             <div class="mb-3">
               <span class="text-xs font-medium uppercase text-gray-400">Pricing</span>
-              <p>{tool.pricing.startingPrice || tool.pricing.model || 'Varies'}</p>
+              <p>{priceOf(tool)}</p>
             </div>
           )}
 
