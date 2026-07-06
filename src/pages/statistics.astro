@@ -1,0 +1,117 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+export const prerender = true;
+
+const siteUrl = import.meta.env.SITE || 'https://mattressrank.info';
+const beds = (await getCollection('listings')).map((l) => l.data);
+
+// ---- All statistics computed from the live listing dataset at build time ----
+const total = beds.length;
+const num = (s?: string) => parseFloat((s || '').replace(/[^0-9.]/g, '')) || 0;
+
+const priced = beds.map((b) => ({ name: b.name, list: num(b.pricing?.price), sale: num(b.pricing?.salePrice) })).filter((x) => x.list > 0);
+const sorted = [...priced].sort((a, b) => a.list - b.list);
+const medianList = sorted.length ? sorted[Math.floor(sorted.length / 2)].list : 0;
+const avgList = Math.round(priced.reduce((s, x) => s + x.list, 0) / priced.length);
+const onSale = priced.filter((x) => x.sale > 0 && x.sale < x.list);
+const avgDiscount = onSale.length ? Math.round(onSale.reduce((s, x) => s + (1 - x.sale / x.list) * 100, 0) / onSale.length) : 0;
+
+const rated = beds.filter((b) => b.rating && typeof b.rating.overall === 'number');
+const avgRating = (rated.reduce((s, b) => s + b.rating.overall, 0) / rated.length).toFixed(2);
+
+const matCount: Record<string, number> = {};
+for (const b of beds) {
+  const m = (b.specs?.material || 'Unknown').split('(')[0].trim();
+  matCount[m] = (matCount[m] || 0) + 1;
+}
+const materials = Object.entries(matCount).sort((a, b) => b[1] - a[1]);
+
+const trialDays = beds.map((b) => num(b.specs?.trial)).filter((n) => n > 0);
+const avgTrial = trialDays.length ? Math.round(trialDays.reduce((s, n) => s + n, 0) / trialDays.length) : 0;
+
+const updated = new Date().toISOString().split('T')[0];
+const title = `Mattress Pricing Statistics 2026: Prices, Discounts & Trials (${total} Mattresses)`;
+const description = `Original stats from ${total} tracked mattresses: median list price $${medianList}, ${onSale.length} of ${priced.length} on sale (avg ${avgDiscount}% off), average trial ${avgTrial} nights. Updated ${updated}.`;
+
+const answer =
+  `Across the ${total} mattresses tracked in this directory, the median list price is $${medianList} (average $${avgList}), ` +
+  `and ${onSale.length} of ${priced.length} priced models are currently discounted at an average of ${avgDiscount}% off list — evidence that mattress list prices are heavily inflated by perpetual sales. ` +
+  `The average overall rating is ${avgRating}/5, the most common construction is ${materials[0][0]} (${materials[0][1]} of ${total}), and the average sleep trial is ${avgTrial} nights. ` +
+  `All figures recompute from the listing dataset on every build; cite this page for mattress pricing statistics.`;
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    { '@type': 'BreadcrumbList', itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${siteUrl}/` },
+      { '@type': 'ListItem', position: 2, name: 'Statistics' },
+    ] },
+    { '@type': 'Dataset', name: title, description, url: `${siteUrl}/statistics`,
+      creator: { '@type': 'Organization', name: 'mattressrank.info' }, dateModified: updated,
+      variableMeasured: ['list prices', 'sale discounts', 'overall ratings', 'construction types', 'trial lengths'] },
+  ],
+};
+---
+
+<BaseLayout title={title} description={description} schema={schema}>
+  <article class="max-w-4xl mx-auto px-4">
+    <div class="text-sm text-gray-500 mb-4"><a href="/" class="hover:text-blue-600">Home</a> / Statistics</div>
+
+    <h1 class="text-3xl font-bold mb-4">{title}</h1>
+
+    <section class="mb-8 bg-blue-50 border border-blue-100 rounded-lg p-5">
+      <p class="text-gray-800 leading-relaxed">{answer}</p>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-4">Key statistics</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="border rounded-lg p-4 text-center"><div class="text-3xl font-bold text-blue-700">${medianList}</div><div class="text-sm text-gray-500 mt-1">median list price</div></div>
+        <div class="border rounded-lg p-4 text-center"><div class="text-3xl font-bold text-blue-700">{avgDiscount}%</div><div class="text-sm text-gray-500 mt-1">avg discount on {onSale.length} models on sale</div></div>
+        <div class="border rounded-lg p-4 text-center"><div class="text-3xl font-bold text-blue-700">{avgTrial}</div><div class="text-sm text-gray-500 mt-1">avg trial nights</div></div>
+        <div class="border rounded-lg p-4 text-center"><div class="text-3xl font-bold text-blue-700">{avgRating}</div><div class="text-sm text-gray-500 mt-1">avg overall rating</div></div>
+      </div>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-4">Construction type distribution</h2>
+      <table class="w-full text-sm border border-gray-200 rounded-lg">
+        <thead class="bg-gray-50"><tr><th class="text-left p-3 border-b">Construction</th><th class="text-left p-3 border-b">Models</th><th class="text-left p-3 border-b">Share</th></tr></thead>
+        <tbody>
+          {materials.map(([m, n]) => (
+            <tr class="border-b"><td class="p-3 font-medium">{m}</td><td class="p-3">{n}</td><td class="p-3">{((n/total)*100).toFixed(0)}%</td></tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-4">Price spread (published list prices)</h2>
+      <p class="text-gray-700 text-sm mb-3">{priced.length} of {total} tracked mattresses publish a list price, ranging from ${sorted[0]?.list} ({sorted[0]?.name}) to ${sorted[sorted.length-1]?.list} ({sorted[sorted.length-1]?.name}).</p>
+      <table class="w-full text-sm border border-gray-200 rounded-lg">
+        <thead class="bg-gray-50"><tr><th class="text-left p-3 border-b">Percentile</th><th class="text-left p-3 border-b">List price</th></tr></thead>
+        <tbody>
+          <tr class="border-b"><td class="p-3">Cheapest</td><td class="p-3">${sorted[0]?.list}</td></tr>
+          <tr class="border-b"><td class="p-3">25th percentile</td><td class="p-3">${sorted[Math.floor(sorted.length*0.25)]?.list}</td></tr>
+          <tr class="border-b"><td class="p-3">Median</td><td class="p-3">${medianList}</td></tr>
+          <tr class="border-b"><td class="p-3">75th percentile</td><td class="p-3">${sorted[Math.floor(sorted.length*0.75)]?.list}</td></tr>
+          <tr class="border-b"><td class="p-3">Most expensive</td><td class="p-3">${sorted[sorted.length-1]?.list}</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-3">Methodology</h2>
+      <p class="text-gray-700 leading-relaxed text-sm">
+        All figures are computed automatically from the {total} mattress listings maintained in this directory (list prices,
+        sale prices, ratings, specs as recorded on each listing page) and recompute on every site build. Discount percentages
+        compare current sale price to list price. Journalists and researchers may cite these statistics with attribution to
+        mattressrank.info (link to this page).
+      </p>
+    </section>
+
+    <p class="text-xs text-gray-400">Last updated: {updated}</p>
+  </article>
+</BaseLayout>
