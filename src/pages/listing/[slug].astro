@@ -27,7 +27,7 @@ export async function getStaticPaths() {
 }
 
 const { listing, compareLinks } = Astro.props;
-const categorySlug = listing.category.toLowerCase().replace(/\s+/g, '-');
+const categorySlug = listing.category.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 const r = listing.rating;
 const specs = listing.specs || {};
 const priceText = listing.pricing.salePrice
