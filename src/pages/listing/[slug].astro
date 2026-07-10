@@ -78,12 +78,6 @@ const schema = {
         price: (listing.pricing.salePrice || listing.pricing.price || '0').replace(/[^0-9.]/g, '') || '0',
         priceCurrency: listing.pricing.currency || 'USD',
       },
-      aggregateRating: {
-        '@type': 'AggregateRating',
-        ratingValue: r.overall,
-        reviewCount: Math.floor(r.overall * 5) + 8,
-        bestRating: 5,
-      },
     },
     {
       '@type': 'BreadcrumbList',
@@ -137,7 +131,7 @@ const faqs = [
       </div>
       <h1 class="text-3xl font-bold mb-2">{listing.name}</h1>
       <p class="text-lg text-gray-600">{listing.tagline}</p>
-      <div class="mt-2 text-yellow-600 text-lg">★ {r.overall.toFixed(1)} / 5.0</div>
+      <div class="mt-2 text-yellow-600 text-lg">★ {r.overall.toFixed(1)} / 5.0 <span class="text-xs opacity-60 ml-2">Editors' score</span></div>
     </div>
 
     <!-- GEO answer-first summary -->
