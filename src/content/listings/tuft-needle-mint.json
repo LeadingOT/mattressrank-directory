@@ -10,7 +10,7 @@
   "affiliateUrl": "https://www.tuftandneedle.com/mattress/mint",
   "image": "/images/tuft-needle-mint.jpg",
   "pricing": {
-    "price": "$1095",
+    "price": "$845",
     "salePrice": "$876",
     "currency": "USD"
   },
@@ -60,5 +60,8 @@
     "medium"
   ],
   "seoTitle": "Tuft & Needle Mint Mattress: Unmatched Comfort & Support in 2026",
-  "seoDescription": "Discover why the Tuft & Needle Mint mattress is the ultimate choice for cooler sleep and superior support. Explore details inside!"
+  "seoDescription": "Discover why the Tuft & Needle Mint mattress is the ultimate choice for cooler sleep and superior support. Explore details inside!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.tuftandneedle.com/mattresses/mint-mattress/"
 }

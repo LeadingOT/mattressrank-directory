@@ -10,8 +10,9 @@
   "affiliateUrl": "https://www.sealy.com/posturepedic",
   "image": "/images/sealy-posturepedic.jpg",
   "pricing": {
-    "price": "$899",
-    "currency": "USD"
+    "price": "$799",
+    "currency": "USD",
+    "salePrice": "$699"
   },
   "specs": {
     "material": "Innerspring",
@@ -59,5 +60,8 @@
     "value"
   ],
   "seoTitle": "Sealy Posturepedic: Sleep Better in 2026 with Unmatched Support",
-  "seoDescription": "Discover the secret to restful sleep! Explore Sealy Posturepedic's benefits and find your perfect mattress today!"
+  "seoDescription": "Discover the secret to restful sleep! Explore Sealy Posturepedic's benefits and find your perfect mattress today!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.sealy.com/mattresses/posturepedic-mattress/"
 }

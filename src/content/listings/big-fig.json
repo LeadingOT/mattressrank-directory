@@ -11,7 +11,7 @@
   "affiliateUrl": "https://www.bigfigmattress.com/products/mattress",
   "image": "/images/big-fig.jpg",
   "pricing": {
-    "price": "$1899",
+    "price": "$1999",
     "salePrice": "$1499",
     "currency": "USD"
   },
@@ -51,8 +51,8 @@
   ],
   "rating": {
     "overall": 4.5,
-    "comfort": 4.0,
-    "support": 5.0,
+    "comfort": 4,
+    "support": 5,
     "cooling": 3.9,
     "value": 4.7
   },
@@ -66,5 +66,8 @@
     "stomach sleeper"
   ],
   "seoTitle": "Big Fig Mattress 2026: Best Heavy-Duty Mattress for Plus-Size Sleepers?",
-  "seoDescription": "Big Fig is built for heavier bodies — 1,100 lb capacity. No sagging, no compromise. See why plus-size sleepers love this mattress!"
+  "seoDescription": "Big Fig is built for heavier bodies — 1,100 lb capacity. No sagging, no compromise. See why plus-size sleepers love this mattress!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.bigfigmattress.com/products/big-fig-classic-mattress-queen"
 }

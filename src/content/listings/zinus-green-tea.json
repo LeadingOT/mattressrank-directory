@@ -11,8 +11,9 @@
   "affiliateUrl": "https://www.amazon.com/zinus-green-tea-mattress",
   "image": "/images/zinus-green-tea.jpg",
   "pricing": {
-    "price": "$299",
-    "currency": "USD"
+    "price": "$718",
+    "currency": "USD",
+    "salePrice": "$499"
   },
   "specs": {
     "material": "Memory foam with green tea extract",
@@ -61,5 +62,8 @@
     "green tea"
   ],
   "seoTitle": "Zinus Green Tea Memory Foam: The Best Budget Choice for 2026?",
-  "seoDescription": "Discover why Zinus Green Tea Memory Foam is a top pick for quality sleep. Uncover features and pricing details that will amaze you!"
+  "seoDescription": "Discover why Zinus Green Tea Memory Foam is a top pick for quality sleep. Uncover features and pricing details that will amaze you!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.zinus.com/products/original-green-tea-memory-foam-mattress"
 }

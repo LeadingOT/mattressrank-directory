@@ -10,8 +10,8 @@
   "affiliateUrl": "https://www.ghostbed.com/products/ghostbed-luxe",
   "image": "/images/ghostbed-luxe.jpg",
   "pricing": {
-    "price": "$1845",
-    "salePrice": "$1290",
+    "price": "$3195",
+    "salePrice": "$1598",
     "currency": "USD"
   },
   "specs": {
@@ -60,5 +60,8 @@
     "phase change"
   ],
   "seoTitle": "GhostBed Luxe: The Ultimate Cooling Mattress of 2026?",
-  "seoDescription": "Discover why the GhostBed Luxe stands out! Uncover its cooling tech and get exclusive insights. Explore now!"
+  "seoDescription": "Discover why the GhostBed Luxe stands out! Uncover its cooling tech and get exclusive insights. Explore now!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.ghostbed.com/products/ghostbed-luxe"
 }

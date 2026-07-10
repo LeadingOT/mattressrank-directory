@@ -11,9 +11,10 @@
   "affiliateUrl": "https://www.titanmattress.com/products/titan-plus",
   "image": "/images/titan-plus.jpg",
   "pricing": {
-    "price": "$1299",
-    "salePrice": "$899",
-    "currency": "USD"
+    "price": "$832",
+    "salePrice": "$624",
+    "currency": "USD",
+    "model": "paid"
   },
   "specs": {
     "material": "TitanFlex foam + 13.5-gauge TitanCore coils",
@@ -51,8 +52,8 @@
   "rating": {
     "overall": 4.4,
     "comfort": 3.8,
-    "support": 5.0,
-    "cooling": 4.0,
+    "support": 5,
+    "cooling": 4,
     "value": 4.6
   },
   "lastUpdated": "2026-04-25",
@@ -65,5 +66,8 @@
     "budget"
   ],
   "seoTitle": "Titan Plus by Brooklyn Bedding 2026: Best Affordable Heavy-Duty Mattress?",
-  "seoDescription": "Titan Plus uses the thickest coils in the industry for 1,000 lb capacity. More affordable than Big Fig. See if it's right for you!"
+  "seoDescription": "Titan Plus uses the thickest coils in the industry for 1,000 lb capacity. More affordable than Big Fig. See if it's right for you!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://titanmattress.com/products/titan"
 }

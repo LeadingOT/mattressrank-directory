@@ -7,12 +7,12 @@
   "description": "The Sweetnight Twilight is a budget-friendly hybrid mattress with a unique 4-layer flippable design — gel memory foam on both sides, but with different firmness levels. Flip for plush or firm. Individually wrapped pocket coils provide support and minimize motion transfer. At its price point, it offers features (flippability, gel cooling, coils) that are usually found in mattresses costing 2-3× more.",
   "category": "Hybrid",
   "subcategory": "Budget",
-  "url": "https://www.amazon.com/sweetnight",
+  "url": "https://www.sweetnight.com/products/sweetnight-twilight-hybrid-spring-memory-foam-support-mattress",
   "affiliateUrl": "https://www.amazon.com/sweetnight-twilight-mattress",
   "image": "/images/sweetnight-twilight.jpg",
   "pricing": {
-    "price": "$699",
-    "salePrice": "$399",
+    "price": "$759.99",
+    "salePrice": "$389.99",
     "currency": "USD"
   },
   "specs": {
@@ -50,7 +50,7 @@
   ],
   "rating": {
     "overall": 4.1,
-    "comfort": 4.0,
+    "comfort": 4,
     "support": 4.1,
     "cooling": 4.2,
     "value": 4.9
@@ -64,5 +64,8 @@
     "Amazon"
   ],
   "seoTitle": "Sweetnight Twilight 2026: Flippable Hybrid Under $400 — Too Good to Be True?",
-  "seoDescription": "Sweetnight Twilight hybrid flips for two firmness levels in one budget mattress. Gel memory foam, pocket coils. Is it the best value under $400?"
+  "seoDescription": "Sweetnight Twilight hybrid flips for two firmness levels in one budget mattress. Gel memory foam, pocket coils. Is it the best value under $400?",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.sweetnight.com/products/sweetnight-twilight-hybrid-spring-memory-foam-support-mattress.js"
 }

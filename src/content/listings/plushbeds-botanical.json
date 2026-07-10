@@ -11,8 +11,9 @@
   "affiliateUrl": "https://www.plushbeds.com/products/botanical-bliss",
   "image": "/images/plushbeds-botanical.jpg",
   "pricing": {
-    "price": "$2199",
-    "currency": "USD"
+    "price": "$2999",
+    "currency": "USD",
+    "salePrice": "$2024"
   },
   "specs": {
     "material": "100% natural Dunlop latex",
@@ -62,5 +63,8 @@
     "premium"
   ],
   "seoTitle": "PlushBeds Botanical Bliss: Eco-Friendly Comfort in 2026!",
-  "seoDescription": "Discover the luxury of customizable organic latex. Upgrade your sleep with PlushBeds today!"
+  "seoDescription": "Discover the luxury of customizable organic latex. Upgrade your sleep with PlushBeds today!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.plushbeds.com/products/the-botanical-bliss-organic-latex-mattress"
 }

@@ -7,12 +7,12 @@
   "description": "The Nolah Evolution is a luxury 15-inch hybrid mattress featuring the brand's proprietary AirFoamICE technology. It delivers superior pressure relief without the heat retention of traditional memory foam, wrapped in a premium Euro-top design. Available in three firmness options to suit any sleep position.",
   "category": "Hybrid",
   "subcategory": "Luxury",
-  "url": "https://www.nolahmattress.com",
+  "url": "https://nolahsleep.com",
   "affiliateUrl": "https://www.nolahmattress.com/products/nolah-evolution",
   "image": "/images/nolah-evolution.jpg",
   "pricing": {
-    "price": "$2499",
-    "salePrice": "$1499",
+    "price": "$2277",
+    "salePrice": "$1480",
     "currency": "USD"
   },
   "specs": {
@@ -63,5 +63,8 @@
     "premium"
   ],
   "seoTitle": "Nolah Evolution 2026: Luxury Hybrid With Advanced Cooling?",
-  "seoDescription": "Explore the Nolah Evolution — a 15-inch luxury hybrid with AirFoamICE technology. Three firmness options. Is it worth the hype? Learn more!"
+  "seoDescription": "Explore the Nolah Evolution — a 15-inch luxury hybrid with AirFoamICE technology. Three firmness options. Is it worth the hype? Learn more!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://nolahsleep.com/products/nolah-evolution-15"
 }

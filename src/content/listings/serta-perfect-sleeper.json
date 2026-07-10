@@ -11,7 +11,8 @@
   "image": "/images/serta-perfect-sleeper.jpg",
   "pricing": {
     "price": "$799",
-    "currency": "USD"
+    "currency": "USD",
+    "startingPrice": "$599"
   },
   "specs": {
     "material": "Innerspring with foam comfort layers",
@@ -59,5 +60,8 @@
     "NSF"
   ],
   "seoTitle": "Serta Perfect Sleeper: The Ultimate Comfort Choice for 2026",
-  "seoDescription": "Discover the unique benefits of the Serta Perfect Sleeper and see why it's the top choice for sound sleep. Explore now!"
+  "seoDescription": "Discover the unique benefits of the Serta Perfect Sleeper and see why it's the top choice for sound sleep. Explore now!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.serta.com/mattresses/perfect-sleeper"
 }

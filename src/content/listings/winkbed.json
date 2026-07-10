@@ -12,7 +12,7 @@
   "image": "/images/winkbed.jpg",
   "pricing": {
     "price": "$1799",
-    "salePrice": "$1349",
+    "salePrice": "$1499",
     "currency": "USD"
   },
   "specs": {
@@ -63,5 +63,8 @@
     "innerspring"
   ],
   "seoTitle": "WinkBed: A Luxurious Hybrid Mattress Worth Trying in 2026",
-  "seoDescription": "Discover why WinkBed is hailed for its comfort and support. Explore unique features and find the perfect fit for restful sleep!"
+  "seoDescription": "Discover why WinkBed is hailed for its comfort and support. Explore unique features and find the perfect fit for restful sleep!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.winkbeds.com/pages/shop-winkbed"
 }

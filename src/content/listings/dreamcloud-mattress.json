@@ -11,7 +11,7 @@
   "affiliateUrl": "https://www.dreamcloudsleep.com/mattress",
   "image": "/images/dreamcloud.jpg",
   "pricing": {
-    "price": "$1099",
+    "price": "$699",
     "salePrice": "$665",
     "currency": "USD"
   },
@@ -61,5 +61,8 @@
     "long trial"
   ],
   "seoTitle": "DreamCloud Luxury Hybrid: A Top Mattress Pick for 2026?",
-  "seoDescription": "Discover why DreamCloud is the go-to luxury hybrid mattress! Explore its unique benefits and see if it’s the right fit for your sleep needs."
+  "seoDescription": "Discover why DreamCloud is the go-to luxury hybrid mattress! Explore its unique benefits and see if it’s the right fit for your sleep needs.",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.dreamcloudsleep.com/mattress/dreamcloud"
 }

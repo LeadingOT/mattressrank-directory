@@ -13,6 +13,7 @@ const listings = defineCollection({
     category: z.string(),
     subcategory: z.string().optional(),
     url: z.string().url(),
+    linkDead: z.boolean().optional(),
     affiliateUrl: z.string().url().optional(),
     image: z.string().optional(),
     pricing: z.object({

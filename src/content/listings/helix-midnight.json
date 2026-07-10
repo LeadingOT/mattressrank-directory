@@ -10,8 +10,8 @@
   "affiliateUrl": "https://www.helixsleep.com/products/midnight-mattress",
   "image": "/images/helix-midnight.jpg",
   "pricing": {
-    "price": "$1099",
-    "salePrice": "$824",
+    "price": "$1478.75",
+    "salePrice": "$1183",
     "currency": "USD"
   },
   "specs": {
@@ -60,5 +60,8 @@
     "pressure relief"
   ],
   "seoTitle": "Helix Midnight Mattress 2026: The Side Sleeper's Dream?",
-  "seoDescription": "Discover if the Helix Midnight is the perfect fit for side sleepers! Read our in-depth insights and find out more now!"
+  "seoDescription": "Discover if the Helix Midnight is the perfect fit for side sleepers! Read our in-depth insights and find out more now!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://helixsleep.com/products/midnight"
 }

@@ -10,8 +10,8 @@
   "affiliateUrl": "https://www.bearmattress.com/products/bear-mattress",
   "image": "/images/bear-original.jpg",
   "pricing": {
-    "price": "$725",
-    "salePrice": "$508",
+    "price": "$998",
+    "salePrice": "$648.70",
     "currency": "USD"
   },
   "specs": {
@@ -60,5 +60,8 @@
     "value"
   ],
   "seoTitle": "Bear Original Mattress 2026: Unleash Your Recovery Potential!",
-  "seoDescription": "Discover how the Bear Original mattress enhances recovery for active individuals. Ready to boost your sleep quality? Find out more!"
+  "seoDescription": "Discover how the Bear Original mattress enhances recovery for active individuals. Ready to boost your sleep quality? Find out more!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.bearmattress.com/products/bear-original-mattress"
 }

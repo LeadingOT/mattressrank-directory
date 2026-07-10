@@ -10,8 +10,8 @@
   "affiliateUrl": "https://www.brooklynbedding.com/products/aurora",
   "image": "/images/brooklyn-aurora.jpg",
   "pricing": {
-    "price": "$1699",
-    "salePrice": "$1274",
+    "price": "$1465",
+    "salePrice": "$1098.75",
     "currency": "USD"
   },
   "specs": {
@@ -61,5 +61,8 @@
     "premium"
   ],
   "seoTitle": "Brooklyn Bedding Aurora: Ultimate Cooling Comfort in 2026",
-  "seoDescription": "Discover how the Brooklyn Bedding Aurora mattress transforms your sleep. Experience unparalleled cooling and support—find out more!"
+  "seoDescription": "Discover how the Brooklyn Bedding Aurora mattress transforms your sleep. Experience unparalleled cooling and support—find out more!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://brooklynbedding.com/products/aurora"
 }

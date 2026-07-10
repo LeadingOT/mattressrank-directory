@@ -10,8 +10,8 @@
   "affiliateUrl": "https://www.amazon.com/tempur-cloud",
   "image": "/images/tempur-cloud.jpg",
   "pricing": {
-    "price": "$2199",
-    "salePrice": "$1759",
+    "price": "$1999",
+    "salePrice": "$1399.30",
     "currency": "USD"
   },
   "specs": {
@@ -61,5 +61,8 @@
     "motion isolation"
   ],
   "seoTitle": "Tempur-Pedic TEMPUR-Cloud: Ultimate Comfort Unveiled in 2026",
-  "seoDescription": "Discover unmatched softness and pressure relief with TEMPUR-Cloud. Is it your perfect mattress? Explore now!"
+  "seoDescription": "Discover unmatched softness and pressure relief with TEMPUR-Cloud. Is it your perfect mattress? Explore now!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.tempurpedic.com/shop-mattresses/tempur-cloud-mattress/"
 }

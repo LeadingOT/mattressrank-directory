@@ -11,7 +11,7 @@
   "affiliateUrl": "https://www.awarasleep.com/products/awara-mattress",
   "image": "/images/awara-natural.jpg",
   "pricing": {
-    "price": "$1699",
+    "price": "$999",
     "salePrice": "$1049",
     "currency": "USD"
   },
@@ -63,5 +63,8 @@
     "back sleeper"
   ],
   "seoTitle": "Awara Natural Hybrid 2026: The Best Affordable Organic Mattress?",
-  "seoDescription": "Explore Awara's eco-friendly latex hybrid mattress. Organic materials, lifetime warranty, and tree planting. See why it's a top choice!"
+  "seoDescription": "Explore Awara's eco-friendly latex hybrid mattress. Organic materials, lifetime warranty, and tree planting. See why it's a top choice!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.awarasleep.com/mattress/queen"
 }

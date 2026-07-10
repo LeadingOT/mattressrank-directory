@@ -10,8 +10,8 @@
   "affiliateUrl": "https://www.amerisleep.com/as3.html",
   "image": "/images/amerisleep-as3.jpg",
   "pricing": {
-    "price": "$1399",
-    "salePrice": "$1049",
+    "price": "$1749",
+    "salePrice": "$1149",
     "currency": "USD"
   },
   "specs": {
@@ -60,5 +60,8 @@
     "medium"
   ],
   "seoTitle": "Amerisleep AS3 2026: Discover the Ultimate Comfort Solution",
-  "seoDescription": "Unlock unmatched sleep with Amerisleep AS3's bio-based foam. Is it your dream mattress? Find out now!"
+  "seoDescription": "Unlock unmatched sleep with Amerisleep AS3's bio-based foam. Is it your dream mattress? Find out now!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.amerisleep.com/as3.html"
 }

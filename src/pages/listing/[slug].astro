@@ -171,9 +171,13 @@ const faqs = [
     <section class="mb-8">
       <h2 class="text-xl font-semibold mb-3">Overview</h2>
       <p class="text-gray-700 leading-relaxed">{listing.description}</p>
-      <a href={listing.affiliateUrl || listing.url} onclick={`trackOutbound('${listing.affiliateUrl || listing.url}', '${listing.name}', 'visit_button'); return false;`} rel="noopener sponsored" class="inline-block mt-4 px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
-        Check price →
-      </a>
+      {!listing.linkDead ? (
+        <a href={listing.affiliateUrl || listing.url} onclick={`trackOutbound('${listing.affiliateUrl || listing.url}', '${listing.name}', 'visit_button'); return false;`} rel="noopener sponsored" class="inline-block mt-4 px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+          Check price →
+        </a>
+      ) : (
+        <p class="mt-4 text-sm text-gray-500 italic">Official site unavailable at our last check (July 2026) — the product may have been discontinued or rebranded.</p>
+      )}
     </section>
 
     <!-- Features -->

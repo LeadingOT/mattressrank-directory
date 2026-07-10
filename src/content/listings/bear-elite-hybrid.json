@@ -11,8 +11,8 @@
   "affiliateUrl": "https://www.bearmattress.com/products/bear-elite-hybrid",
   "image": "/images/bear-elite-hybrid.jpg",
   "pricing": {
-    "price": "$1849",
-    "salePrice": "$1295",
+    "price": "$2284",
+    "salePrice": "$1484.60",
     "currency": "USD"
   },
   "specs": {
@@ -63,5 +63,8 @@
     "Celliant"
   ],
   "seoTitle": "Bear Elite Hybrid 2026: Premium Recovery Mattress for Athletes?",
-  "seoDescription": "Bear Elite Hybrid upgrades the popular Bear mattress with coils and multiple firmness options. Celliant technology for recovery. Learn more!"
+  "seoDescription": "Bear Elite Hybrid upgrades the popular Bear mattress with coils and multiple firmness options. Celliant technology for recovery. Learn more!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.bearmattress.com/products/elite-hybrid-mattress"
 }

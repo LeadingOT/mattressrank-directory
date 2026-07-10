@@ -11,8 +11,8 @@
   "affiliateUrl": "https://www.saatva.com/products/zenhaven",
   "image": "/images/zenhaven-latex.jpg",
   "pricing": {
-    "price": "$3295",
-    "salePrice": "$2895",
+    "price": "$3549",
+    "salePrice": "$3017",
     "currency": "USD"
   },
   "specs": {
@@ -53,7 +53,7 @@
     "comfort": 4.4,
     "support": 4.6,
     "cooling": 4.8,
-    "value": 4.0
+    "value": 4
   },
   "lastUpdated": "2026-04-25",
   "tags": [
@@ -65,5 +65,8 @@
     "eco-friendly"
   ],
   "seoTitle": "Zenhaven by Saatva 2026: Flippable Luxury Latex Worth the Price?",
-  "seoDescription": "Zenhaven offers two firmness levels in one all-natural Talalay latex mattress. 100% organic, lifetime warranty. Explore this eco-luxury pick!"
+  "seoDescription": "Zenhaven offers two firmness levels in one all-natural Talalay latex mattress. 100% organic, lifetime warranty. Explore this eco-luxury pick!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.saatva.com/mattresses/zenhaven"
 }

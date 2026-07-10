@@ -12,7 +12,7 @@
   "image": "/images/puffy-cloud.jpg",
   "pricing": {
     "price": "$1349",
-    "salePrice": "$899",
+    "salePrice": "$1049",
     "currency": "USD"
   },
   "specs": {
@@ -63,5 +63,8 @@
     "lifetime warranty"
   ],
   "seoTitle": "Puffy Cloud Mattress 2026: Luxury Softness, Cloud-Like Comfort?",
-  "seoDescription": "Discover the Puffy Cloud mattress with cooling technology and plush comfort. Is it the cloud-like sleep you've been dreaming of? Find out now!"
+  "seoDescription": "Discover the Puffy Cloud mattress with cooling technology and plush comfort. Is it the cloud-like sleep you've been dreaming of? Find out now!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://puffy.com/pages/queen-mattresses"
 }

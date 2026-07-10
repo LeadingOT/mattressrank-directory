@@ -10,8 +10,9 @@
   "affiliateUrl": "https://www.saatva.com/mattresses/saatva-classic",
   "image": "/images/saatva-classic.jpg",
   "pricing": {
-    "price": "$1395",
-    "currency": "USD"
+    "price": "$2229",
+    "currency": "USD",
+    "salePrice": "$1895"
   },
   "specs": {
     "material": "Hybrid (coils + foam + pillow top)",
@@ -61,5 +62,8 @@
     "lifetime warranty"
   ],
   "seoTitle": "Saatva Classic: Luxury Comfort & Support in 2026",
-  "seoDescription": "Experience the Saatva Classic—luxury comfort meets support for a restful sleep. Discover how it can transform your nights!"
+  "seoDescription": "Experience the Saatva Classic—luxury comfort meets support for a restful sleep. Discover how it can transform your nights!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.saatva.com/mattresses/saatva-classic"
 }

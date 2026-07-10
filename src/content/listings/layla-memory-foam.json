@@ -10,8 +10,8 @@
   "affiliateUrl": "https://www.laylasleep.com/mattress",
   "image": "/images/layla-memory-foam.jpg",
   "pricing": {
-    "price": "$1099",
-    "salePrice": "$849",
+    "price": "$1149",
+    "salePrice": "$999",
     "currency": "USD"
   },
   "specs": {
@@ -60,5 +60,8 @@
     "versatile"
   ],
   "seoTitle": "Layla Memory Foam: Discover Comfort & Support in 2026",
-  "seoDescription": "Experience the unique flippable design of Layla! Dual firmness levels offer customizable comfort for every sleeper. Explore now!"
+  "seoDescription": "Experience the unique flippable design of Layla! Dual firmness levels offer customizable comfort for every sleeper. Explore now!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://laylasleep.com/product/layla-mattress/"
 }

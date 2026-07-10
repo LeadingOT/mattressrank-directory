@@ -10,8 +10,9 @@
   "affiliateUrl": "https://www.amazon.com/casper-original",
   "image": "/images/casper-original.jpg",
   "pricing": {
-    "price": "$1095",
-    "currency": "USD"
+    "price": "$1149",
+    "currency": "USD",
+    "salePrice": "$899"
   },
   "specs": {
     "material": "Multi-layer memory foam",
@@ -59,5 +60,8 @@
     "value"
   ],
   "seoTitle": "Casper Original Mattress 2026: Our Verdict After Testing!",
-  "seoDescription": "Discover why the Casper Original mattress is a top choice for comfort and support. Is it right for you? Read on for insights!"
+  "seoDescription": "Discover why the Casper Original mattress is a top choice for comfort and support. Is it right for you? Read on for insights!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://casper.com/mattresses/casper-original/"
 }
